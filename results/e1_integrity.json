@@ -1,0 +1,145 @@
+{
+ "detection": {
+  "plain": {
+   "modify": 0.0,
+   "delete": 0.0,
+   "insert": 0.0,
+   "reorder": 0.0,
+   "truncate": 0.0
+  },
+  "hmac": {
+   "modify": 1.0,
+   "delete": 0.0,
+   "insert": 1.0,
+   "reorder": 0.0,
+   "truncate": 0.0
+  },
+  "chain": {
+   "modify": 1.0,
+   "delete": 1.0,
+   "insert": 1.0,
+   "reorder": 1.0,
+   "truncate": 0.0
+  },
+  "sealed": {
+   "modify": 1.0,
+   "delete": 1.0,
+   "insert": 1.0,
+   "reorder": 1.0,
+   "truncate": 1.0
+  }
+ },
+ "truncation": {
+  "10": [
+   {
+    "k": 1,
+    "detect": 0.03333333333333333
+   },
+   {
+    "k": 5,
+    "detect": 0.4666666666666667
+   },
+   {
+    "k": 20,
+    "detect": 1.0
+   },
+   {
+    "k": 50,
+    "detect": 1.0
+   },
+   {
+    "k": 200,
+    "detect": 1.0
+   },
+   {
+    "k": 500,
+    "detect": 1.0
+   }
+  ],
+  "100": [
+   {
+    "k": 1,
+    "detect": 0.03333333333333333
+   },
+   {
+    "k": 5,
+    "detect": 0.0
+   },
+   {
+    "k": 20,
+    "detect": 0.16666666666666666
+   },
+   {
+    "k": 50,
+    "detect": 0.4666666666666667
+   },
+   {
+    "k": 200,
+    "detect": 1.0
+   },
+   {
+    "k": 500,
+    "detect": 1.0
+   }
+  ],
+  "1000": [
+   {
+    "k": 1,
+    "detect": 0.0
+   },
+   {
+    "k": 5,
+    "detect": 0.0
+   },
+   {
+    "k": 20,
+    "detect": 0.0
+   },
+   {
+    "k": 50,
+    "detect": 0.13333333333333333
+   },
+   {
+    "k": 200,
+    "detect": 0.16666666666666666
+   },
+   {
+    "k": 500,
+    "detect": 0.5333333333333333
+   }
+  ]
+ },
+ "overhead": {
+  "plain": {
+   "append_rec_per_s": 1971938.266961809,
+   "verify_rec_per_s": 2304604.668479798,
+   "tag_bytes_per_record": 64,
+   "checkpoints": 1,
+   "raw_bytes_per_record": 342.74033333333335
+  },
+  "hmac": {
+   "append_rec_per_s": 730103.1735044796,
+   "verify_rec_per_s": 777704.0948723712,
+   "tag_bytes_per_record": 64,
+   "checkpoints": 1,
+   "raw_bytes_per_record": 342.74033333333335
+  },
+  "chain": {
+   "append_rec_per_s": 612269.8885869784,
+   "verify_rec_per_s": 631021.5493825702,
+   "tag_bytes_per_record": 64,
+   "checkpoints": 1,
+   "raw_bytes_per_record": 342.74033333333335
+  },
+  "sealed": {
+   "append_rec_per_s": 598186.001031971,
+   "verify_rec_per_s": 630637.969304067,
+   "tag_bytes_per_record": 64,
+   "checkpoints": 30,
+   "raw_bytes_per_record": 342.74033333333335
+  }
+ },
+ "localization_accuracy": 1.0,
+ "trials": 60,
+ "records": 3000
+}

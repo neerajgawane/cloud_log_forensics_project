@@ -1,0 +1,842 @@
+Oct  1 00:00:06 vm-db-1 postgres[9570]: connection authorized: user=orders database=orders host=10.0.2.10 port=37781
+Oct  1 00:00:21 vm-db-1 postgres[20500]: connection authorized: user=orders database=orders host=10.0.2.10 port=56272
+Oct  1 00:00:29 vm-db-1 CRON[23641]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:00:43 vm-db-1 postgres[16256]: connection authorized: user=orders database=orders host=10.0.2.10 port=32886
+Oct  1 00:01:06 vm-db-1 postgres[29211]: connection authorized: user=orders database=orders host=10.0.2.10 port=50449
+Oct  1 00:01:26 vm-db-1 postgres[16146]: connection authorized: user=orders database=orders host=10.0.2.10 port=33171
+Oct  1 00:01:43 vm-db-1 postgres[14564]: connection authorized: user=orders database=orders host=10.0.2.10 port=40228
+Oct  1 00:02:02 vm-db-1 postgres[38784]: connection authorized: user=orders database=orders host=10.0.2.10 port=57119
+Oct  1 00:02:24 vm-db-1 postgres[6690]: connection authorized: user=orders database=orders host=10.0.2.10 port=55190
+Oct  1 00:02:43 vm-db-1 postgres[15126]: connection authorized: user=orders database=orders host=10.0.2.10 port=34563
+Oct  1 00:03:02 vm-db-1 postgres[15926]: connection authorized: user=orders database=orders host=10.0.2.10 port=45363
+Oct  1 00:03:24 vm-db-1 postgres[21849]: connection authorized: user=orders database=orders host=10.0.2.10 port=47884
+Oct  1 00:03:42 vm-db-1 postgres[32706]: connection authorized: user=orders database=orders host=10.0.2.10 port=33581
+Oct  1 00:04:04 vm-db-1 postgres[21503]: connection authorized: user=orders database=orders host=10.0.2.10 port=50998
+Oct  1 00:04:22 vm-db-1 postgres[30569]: connection authorized: user=orders database=orders host=10.0.2.10 port=54291
+Oct  1 00:04:46 vm-db-1 postgres[9483]: connection authorized: user=orders database=orders host=10.0.2.10 port=51522
+Oct  1 00:05:02 vm-db-1 postgres[29899]: connection authorized: user=orders database=orders host=10.0.2.10 port=49083
+Oct  1 00:05:23 vm-db-1 postgres[10395]: connection authorized: user=orders database=orders host=10.0.2.10 port=33879
+Oct  1 00:05:29 vm-db-1 CRON[7061]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:05:41 vm-db-1 postgres[21748]: connection authorized: user=orders database=orders host=10.0.2.10 port=44163
+Oct  1 00:06:03 vm-db-1 postgres[21032]: connection authorized: user=orders database=orders host=10.0.2.10 port=41284
+Oct  1 00:06:26 vm-db-1 postgres[10683]: connection authorized: user=orders database=orders host=10.0.2.10 port=56950
+Oct  1 00:06:46 vm-db-1 postgres[9994]: connection authorized: user=orders database=orders host=10.0.2.10 port=44685
+Oct  1 00:07:01 vm-db-1 postgres[9355]: connection authorized: user=orders database=orders host=10.0.2.10 port=45804
+Oct  1 00:07:23 vm-db-1 postgres[18507]: connection authorized: user=orders database=orders host=10.0.2.10 port=40701
+Oct  1 00:07:46 vm-db-1 postgres[19079]: connection authorized: user=orders database=orders host=10.0.2.10 port=47243
+Oct  1 00:08:01 vm-db-1 postgres[34008]: connection authorized: user=orders database=orders host=10.0.2.10 port=46695
+Oct  1 00:08:23 vm-db-1 postgres[34311]: connection authorized: user=orders database=orders host=10.0.2.10 port=47193
+Oct  1 00:08:42 vm-db-1 postgres[13122]: connection authorized: user=orders database=orders host=10.0.2.10 port=41385
+Oct  1 00:09:05 vm-db-1 postgres[25551]: connection authorized: user=orders database=orders host=10.0.2.10 port=45669
+Oct  1 00:09:25 vm-db-1 postgres[17233]: connection authorized: user=orders database=orders host=10.0.2.10 port=46615
+Oct  1 00:09:42 vm-db-1 postgres[8761]: connection authorized: user=orders database=orders host=10.0.2.10 port=55035
+Oct  1 00:10:04 vm-db-1 postgres[5669]: connection authorized: user=orders database=orders host=10.0.2.10 port=43699
+Oct  1 00:10:18 vm-db-1 sshd[24616]: Accepted publickey for ops from 10.0.9.5 port 45414 ssh2
+Oct  1 00:10:18 vm-db-1 sshd[24616]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 00:10:25 vm-db-1 postgres[11623]: connection authorized: user=orders database=orders host=10.0.2.10 port=42799
+Oct  1 00:10:29 vm-db-1 CRON[9816]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:10:41 vm-db-1 postgres[6473]: connection authorized: user=orders database=orders host=10.0.2.10 port=39433
+Oct  1 00:10:50 vm-db-1 sudo[20917]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 00:11:02 vm-db-1 postgres[30389]: connection authorized: user=orders database=orders host=10.0.2.10 port=34811
+Oct  1 00:11:13 vm-db-1 sshd[24616]: pam_unix(sshd:session): session closed for user ops
+Oct  1 00:11:25 vm-db-1 postgres[31571]: connection authorized: user=orders database=orders host=10.0.2.10 port=40928
+Oct  1 00:11:43 vm-db-1 postgres[32910]: connection authorized: user=orders database=orders host=10.0.2.10 port=51622
+Oct  1 00:12:01 vm-db-1 postgres[9813]: connection authorized: user=orders database=orders host=10.0.2.10 port=55816
+Oct  1 00:12:26 vm-db-1 postgres[7111]: connection authorized: user=orders database=orders host=10.0.2.10 port=60064
+Oct  1 00:12:45 vm-db-1 postgres[15966]: connection authorized: user=orders database=orders host=10.0.2.10 port=36992
+Oct  1 00:13:04 vm-db-1 postgres[9396]: connection authorized: user=orders database=orders host=10.0.2.10 port=42252
+Oct  1 00:13:25 vm-db-1 postgres[4444]: connection authorized: user=orders database=orders host=10.0.2.10 port=44450
+Oct  1 00:13:45 vm-db-1 postgres[37378]: connection authorized: user=orders database=orders host=10.0.2.10 port=47665
+Oct  1 00:14:03 vm-db-1 postgres[21373]: connection authorized: user=orders database=orders host=10.0.2.10 port=41070
+Oct  1 00:14:24 vm-db-1 postgres[24505]: connection authorized: user=orders database=orders host=10.0.2.10 port=45594
+Oct  1 00:14:47 vm-db-1 postgres[4732]: connection authorized: user=orders database=orders host=10.0.2.10 port=53196
+Oct  1 00:15:06 vm-db-1 postgres[17004]: connection authorized: user=orders database=orders host=10.0.2.10 port=41525
+Oct  1 00:15:24 vm-db-1 postgres[5758]: connection authorized: user=orders database=orders host=10.0.2.10 port=42572
+Oct  1 00:15:29 vm-db-1 CRON[22351]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:15:47 vm-db-1 postgres[29788]: connection authorized: user=orders database=orders host=10.0.2.10 port=35367
+Oct  1 00:16:01 vm-db-1 postgres[21884]: connection authorized: user=orders database=orders host=10.0.2.10 port=48288
+Oct  1 00:16:21 vm-db-1 postgres[39861]: connection authorized: user=orders database=orders host=10.0.2.10 port=38435
+Oct  1 00:16:42 vm-db-1 postgres[6797]: connection authorized: user=orders database=orders host=10.0.2.10 port=59386
+Oct  1 00:17:02 vm-db-1 postgres[26874]: connection authorized: user=orders database=orders host=10.0.2.10 port=38815
+Oct  1 00:17:22 vm-db-1 postgres[6991]: connection authorized: user=orders database=orders host=10.0.2.10 port=50887
+Oct  1 00:17:45 vm-db-1 postgres[32974]: connection authorized: user=orders database=orders host=10.0.2.10 port=44407
+Oct  1 00:18:07 vm-db-1 postgres[28223]: connection authorized: user=orders database=orders host=10.0.2.10 port=42729
+Oct  1 00:18:24 vm-db-1 postgres[30864]: connection authorized: user=orders database=orders host=10.0.2.10 port=55763
+Oct  1 00:18:46 vm-db-1 postgres[21831]: connection authorized: user=orders database=orders host=10.0.2.10 port=35130
+Oct  1 00:19:03 vm-db-1 postgres[33416]: connection authorized: user=orders database=orders host=10.0.2.10 port=60632
+Oct  1 00:19:21 vm-db-1 postgres[11619]: connection authorized: user=orders database=orders host=10.0.2.10 port=53165
+Oct  1 00:19:46 vm-db-1 postgres[17689]: connection authorized: user=orders database=orders host=10.0.2.10 port=45981
+Oct  1 00:20:03 vm-db-1 postgres[11103]: connection authorized: user=orders database=orders host=10.0.2.10 port=58275
+Oct  1 00:20:25 vm-db-1 postgres[21993]: connection authorized: user=orders database=orders host=10.0.2.10 port=38420
+Oct  1 00:20:29 vm-db-1 CRON[8551]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:20:42 vm-db-1 postgres[15933]: connection authorized: user=orders database=orders host=10.0.2.10 port=44010
+Oct  1 00:21:03 vm-db-1 postgres[25816]: connection authorized: user=orders database=orders host=10.0.2.10 port=49972
+Oct  1 00:21:24 vm-db-1 postgres[36976]: connection authorized: user=orders database=orders host=10.0.2.10 port=54359
+Oct  1 00:21:46 vm-db-1 postgres[4497]: connection authorized: user=orders database=orders host=10.0.2.10 port=34897
+Oct  1 00:22:05 vm-db-1 postgres[36464]: connection authorized: user=orders database=orders host=10.0.2.10 port=53642
+Oct  1 00:22:21 vm-db-1 postgres[36086]: connection authorized: user=orders database=orders host=10.0.2.10 port=34502
+Oct  1 00:22:43 vm-db-1 postgres[11355]: connection authorized: user=orders database=orders host=10.0.2.10 port=35499
+Oct  1 00:23:01 vm-db-1 postgres[21388]: connection authorized: user=orders database=orders host=10.0.2.10 port=46260
+Oct  1 00:23:22 vm-db-1 postgres[17275]: connection authorized: user=orders database=orders host=10.0.2.10 port=43619
+Oct  1 00:23:41 vm-db-1 postgres[4586]: connection authorized: user=orders database=orders host=10.0.2.10 port=49504
+Oct  1 00:24:06 vm-db-1 postgres[4767]: connection authorized: user=orders database=orders host=10.0.2.10 port=41737
+Oct  1 00:24:25 vm-db-1 postgres[18363]: connection authorized: user=orders database=orders host=10.0.2.10 port=39793
+Oct  1 00:24:41 vm-db-1 postgres[5497]: connection authorized: user=orders database=orders host=10.0.2.10 port=39425
+Oct  1 00:25:05 vm-db-1 postgres[38483]: connection authorized: user=orders database=orders host=10.0.2.10 port=47083
+Oct  1 00:25:09 vm-db-1 sshd[23742]: Accepted publickey for ops from 10.0.9.5 port 35886 ssh2
+Oct  1 00:25:09 vm-db-1 sshd[23742]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 00:25:22 vm-db-1 postgres[7877]: connection authorized: user=orders database=orders host=10.0.2.10 port=59394
+Oct  1 00:25:23 vm-db-1 sudo[24023]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 00:25:29 vm-db-1 CRON[33800]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:25:43 vm-db-1 postgres[27385]: connection authorized: user=orders database=orders host=10.0.2.10 port=49752
+Oct  1 00:25:44 vm-db-1 sshd[23742]: pam_unix(sshd:session): session closed for user ops
+Oct  1 00:26:02 vm-db-1 postgres[36152]: connection authorized: user=orders database=orders host=10.0.2.10 port=47954
+Oct  1 00:26:26 vm-db-1 postgres[5400]: connection authorized: user=orders database=orders host=10.0.2.10 port=55645
+Oct  1 00:26:44 vm-db-1 postgres[26379]: connection authorized: user=orders database=orders host=10.0.2.10 port=35637
+Oct  1 00:27:03 vm-db-1 postgres[24136]: connection authorized: user=orders database=orders host=10.0.2.10 port=33740
+Oct  1 00:27:26 vm-db-1 postgres[10426]: connection authorized: user=orders database=orders host=10.0.2.10 port=59783
+Oct  1 00:27:42 vm-db-1 postgres[37275]: connection authorized: user=orders database=orders host=10.0.2.10 port=38451
+Oct  1 00:28:01 vm-db-1 postgres[16368]: connection authorized: user=orders database=orders host=10.0.2.10 port=53039
+Oct  1 00:28:23 vm-db-1 postgres[26954]: connection authorized: user=orders database=orders host=10.0.2.10 port=38581
+Oct  1 00:28:47 vm-db-1 postgres[12095]: connection authorized: user=orders database=orders host=10.0.2.10 port=59670
+Oct  1 00:29:03 vm-db-1 postgres[28917]: connection authorized: user=orders database=orders host=10.0.2.10 port=39939
+Oct  1 00:29:25 vm-db-1 postgres[36745]: connection authorized: user=orders database=orders host=10.0.2.10 port=51482
+Oct  1 00:29:41 vm-db-1 postgres[15127]: connection authorized: user=orders database=orders host=10.0.2.10 port=46414
+Oct  1 00:30:04 vm-db-1 postgres[24161]: connection authorized: user=orders database=orders host=10.0.2.10 port=33231
+Oct  1 00:30:26 vm-db-1 postgres[13593]: connection authorized: user=orders database=orders host=10.0.2.10 port=59135
+Oct  1 00:30:29 vm-db-1 CRON[36014]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:30:43 vm-db-1 postgres[18172]: connection authorized: user=orders database=orders host=10.0.2.10 port=37317
+Oct  1 00:31:06 vm-db-1 postgres[16258]: connection authorized: user=orders database=orders host=10.0.2.10 port=44859
+Oct  1 00:31:25 vm-db-1 postgres[30359]: connection authorized: user=orders database=orders host=10.0.2.10 port=41584
+Oct  1 00:31:43 vm-db-1 postgres[17466]: connection authorized: user=orders database=orders host=10.0.2.10 port=49719
+Oct  1 00:32:04 vm-db-1 postgres[29216]: connection authorized: user=orders database=orders host=10.0.2.10 port=33078
+Oct  1 00:32:25 vm-db-1 postgres[4104]: connection authorized: user=orders database=orders host=10.0.2.10 port=55211
+Oct  1 00:32:43 vm-db-1 postgres[29000]: connection authorized: user=orders database=orders host=10.0.2.10 port=36301
+Oct  1 00:33:06 vm-db-1 postgres[8753]: connection authorized: user=orders database=orders host=10.0.2.10 port=42074
+Oct  1 00:33:21 vm-db-1 postgres[12251]: connection authorized: user=orders database=orders host=10.0.2.10 port=59930
+Oct  1 00:33:44 vm-db-1 postgres[14145]: connection authorized: user=orders database=orders host=10.0.2.10 port=53077
+Oct  1 00:34:05 vm-db-1 postgres[12398]: connection authorized: user=orders database=orders host=10.0.2.10 port=43261
+Oct  1 00:34:23 vm-db-1 postgres[27977]: connection authorized: user=orders database=orders host=10.0.2.10 port=33069
+Oct  1 00:34:45 vm-db-1 postgres[31028]: connection authorized: user=orders database=orders host=10.0.2.10 port=53344
+Oct  1 00:35:05 vm-db-1 postgres[24597]: connection authorized: user=orders database=orders host=10.0.2.10 port=38901
+Oct  1 00:35:21 vm-db-1 postgres[37914]: connection authorized: user=orders database=orders host=10.0.2.10 port=60215
+Oct  1 00:35:29 vm-db-1 CRON[31006]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:35:45 vm-db-1 postgres[26733]: connection authorized: user=orders database=orders host=10.0.2.10 port=38990
+Oct  1 00:36:02 vm-db-1 postgres[5202]: connection authorized: user=orders database=orders host=10.0.2.10 port=41649
+Oct  1 00:36:25 vm-db-1 postgres[34984]: connection authorized: user=orders database=orders host=10.0.2.10 port=35076
+Oct  1 00:36:44 vm-db-1 postgres[15908]: connection authorized: user=orders database=orders host=10.0.2.10 port=45156
+Oct  1 00:37:01 vm-db-1 postgres[4791]: connection authorized: user=orders database=orders host=10.0.2.10 port=48939
+Oct  1 00:37:23 vm-db-1 postgres[24927]: connection authorized: user=orders database=orders host=10.0.2.10 port=38538
+Oct  1 00:37:45 vm-db-1 postgres[9401]: connection authorized: user=orders database=orders host=10.0.2.10 port=45428
+Oct  1 00:38:02 vm-db-1 postgres[30593]: connection authorized: user=orders database=orders host=10.0.2.10 port=53406
+Oct  1 00:38:23 vm-db-1 postgres[36946]: connection authorized: user=orders database=orders host=10.0.2.10 port=37369
+Oct  1 00:38:46 vm-db-1 postgres[2460]: connection authorized: user=orders database=orders host=10.0.2.10 port=44867
+Oct  1 00:39:02 vm-db-1 postgres[35511]: connection authorized: user=orders database=orders host=10.0.2.10 port=38103
+Oct  1 00:39:26 vm-db-1 postgres[23701]: connection authorized: user=orders database=orders host=10.0.2.10 port=43222
+Oct  1 00:39:42 vm-db-1 postgres[12545]: connection authorized: user=orders database=orders host=10.0.2.10 port=34297
+Oct  1 00:40:05 vm-db-1 postgres[19303]: connection authorized: user=orders database=orders host=10.0.2.10 port=44259
+Oct  1 00:40:22 vm-db-1 postgres[29824]: connection authorized: user=orders database=orders host=10.0.2.10 port=38158
+Oct  1 00:40:29 vm-db-1 CRON[33742]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:40:30 vm-db-1 sshd[29036]: Accepted publickey for ops from 10.0.9.5 port 48092 ssh2
+Oct  1 00:40:30 vm-db-1 sshd[29036]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 00:40:44 vm-db-1 postgres[23851]: connection authorized: user=orders database=orders host=10.0.2.10 port=53260
+Oct  1 00:40:55 vm-db-1 sudo[36411]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 00:41:02 vm-db-1 postgres[30210]: connection authorized: user=orders database=orders host=10.0.2.10 port=33952
+Oct  1 00:41:09 vm-db-1 sshd[29036]: pam_unix(sshd:session): session closed for user ops
+Oct  1 00:41:26 vm-db-1 postgres[34768]: connection authorized: user=orders database=orders host=10.0.2.10 port=44924
+Oct  1 00:41:41 vm-db-1 postgres[35808]: connection authorized: user=orders database=orders host=10.0.2.10 port=39714
+Oct  1 00:42:06 vm-db-1 postgres[18590]: connection authorized: user=orders database=orders host=10.0.2.10 port=49521
+Oct  1 00:42:22 vm-db-1 postgres[5403]: connection authorized: user=orders database=orders host=10.0.2.10 port=53194
+Oct  1 00:42:41 vm-db-1 postgres[15340]: connection authorized: user=orders database=orders host=10.0.2.10 port=55744
+Oct  1 00:43:04 vm-db-1 postgres[8169]: connection authorized: user=orders database=orders host=10.0.2.10 port=46340
+Oct  1 00:43:23 vm-db-1 postgres[15817]: connection authorized: user=orders database=orders host=10.0.2.10 port=46666
+Oct  1 00:43:46 vm-db-1 postgres[33007]: connection authorized: user=orders database=orders host=10.0.2.10 port=58185
+Oct  1 00:44:04 vm-db-1 postgres[20822]: connection authorized: user=orders database=orders host=10.0.2.10 port=42194
+Oct  1 00:44:24 vm-db-1 postgres[31609]: connection authorized: user=orders database=orders host=10.0.2.10 port=56993
+Oct  1 00:44:42 vm-db-1 postgres[15998]: connection authorized: user=orders database=orders host=10.0.2.10 port=48661
+Oct  1 00:45:03 vm-db-1 postgres[27890]: connection authorized: user=orders database=orders host=10.0.2.10 port=56188
+Oct  1 00:45:25 vm-db-1 postgres[9020]: connection authorized: user=orders database=orders host=10.0.2.10 port=39239
+Oct  1 00:45:29 vm-db-1 CRON[10615]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:45:43 vm-db-1 postgres[9095]: connection authorized: user=orders database=orders host=10.0.2.10 port=53586
+Oct  1 00:46:03 vm-db-1 postgres[20577]: connection authorized: user=orders database=orders host=10.0.2.10 port=59341
+Oct  1 00:46:23 vm-db-1 postgres[37208]: connection authorized: user=orders database=orders host=10.0.2.10 port=50998
+Oct  1 00:46:42 vm-db-1 postgres[6801]: connection authorized: user=orders database=orders host=10.0.2.10 port=50809
+Oct  1 00:47:07 vm-db-1 postgres[26868]: connection authorized: user=orders database=orders host=10.0.2.10 port=50831
+Oct  1 00:47:25 vm-db-1 postgres[12931]: connection authorized: user=orders database=orders host=10.0.2.10 port=37258
+Oct  1 00:47:42 vm-db-1 postgres[9969]: connection authorized: user=orders database=orders host=10.0.2.10 port=60728
+Oct  1 00:48:02 vm-db-1 postgres[17091]: connection authorized: user=orders database=orders host=10.0.2.10 port=52817
+Oct  1 00:48:24 vm-db-1 postgres[2854]: connection authorized: user=orders database=orders host=10.0.2.10 port=60409
+Oct  1 00:48:44 vm-db-1 postgres[19969]: connection authorized: user=orders database=orders host=10.0.2.10 port=48373
+Oct  1 00:49:07 vm-db-1 postgres[12514]: connection authorized: user=orders database=orders host=10.0.2.10 port=52514
+Oct  1 00:49:25 vm-db-1 postgres[25832]: connection authorized: user=orders database=orders host=10.0.2.10 port=47394
+Oct  1 00:49:41 vm-db-1 postgres[38919]: connection authorized: user=orders database=orders host=10.0.2.10 port=47492
+Oct  1 00:50:06 vm-db-1 postgres[9068]: connection authorized: user=orders database=orders host=10.0.2.10 port=60987
+Oct  1 00:50:26 vm-db-1 postgres[5884]: connection authorized: user=orders database=orders host=10.0.2.10 port=56390
+Oct  1 00:50:29 vm-db-1 CRON[37570]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:50:46 vm-db-1 postgres[23854]: connection authorized: user=orders database=orders host=10.0.2.10 port=59804
+Oct  1 00:51:06 vm-db-1 postgres[11576]: connection authorized: user=orders database=orders host=10.0.2.10 port=50826
+Oct  1 00:51:25 vm-db-1 postgres[18908]: connection authorized: user=orders database=orders host=10.0.2.10 port=41232
+Oct  1 00:51:44 vm-db-1 postgres[30390]: connection authorized: user=orders database=orders host=10.0.2.10 port=51818
+Oct  1 00:52:05 vm-db-1 postgres[37525]: connection authorized: user=orders database=orders host=10.0.2.10 port=33427
+Oct  1 00:52:27 vm-db-1 postgres[23587]: connection authorized: user=orders database=orders host=10.0.2.10 port=49321
+Oct  1 00:52:42 vm-db-1 postgres[31261]: connection authorized: user=orders database=orders host=10.0.2.10 port=33404
+Oct  1 00:53:02 vm-db-1 postgres[26130]: connection authorized: user=orders database=orders host=10.0.2.10 port=52862
+Oct  1 00:53:25 vm-db-1 postgres[12448]: connection authorized: user=orders database=orders host=10.0.2.10 port=43572
+Oct  1 00:53:46 vm-db-1 postgres[37185]: connection authorized: user=orders database=orders host=10.0.2.10 port=49071
+Oct  1 00:53:56 vm-db-1 sshd[7390]: Accepted publickey for ops from 10.0.9.5 port 36544 ssh2
+Oct  1 00:53:56 vm-db-1 sshd[7390]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 00:54:05 vm-db-1 postgres[8989]: connection authorized: user=orders database=orders host=10.0.2.10 port=45124
+Oct  1 00:54:26 vm-db-1 postgres[39397]: connection authorized: user=orders database=orders host=10.0.2.10 port=33552
+Oct  1 00:54:30 vm-db-1 sudo[2826]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 00:54:41 vm-db-1 postgres[30367]: connection authorized: user=orders database=orders host=10.0.2.10 port=48861
+Oct  1 00:54:46 vm-db-1 sshd[7390]: pam_unix(sshd:session): session closed for user ops
+Oct  1 00:55:02 vm-db-1 postgres[38134]: connection authorized: user=orders database=orders host=10.0.2.10 port=45357
+Oct  1 00:55:26 vm-db-1 postgres[28527]: connection authorized: user=orders database=orders host=10.0.2.10 port=47540
+Oct  1 00:55:29 vm-db-1 CRON[30869]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 00:55:41 vm-db-1 postgres[18350]: connection authorized: user=orders database=orders host=10.0.2.10 port=42459
+Oct  1 00:56:07 vm-db-1 postgres[2266]: connection authorized: user=orders database=orders host=10.0.2.10 port=60540
+Oct  1 00:56:25 vm-db-1 postgres[31082]: connection authorized: user=orders database=orders host=10.0.2.10 port=34431
+Oct  1 00:56:46 vm-db-1 postgres[30165]: connection authorized: user=orders database=orders host=10.0.2.10 port=52452
+Oct  1 00:57:02 vm-db-1 postgres[32981]: connection authorized: user=orders database=orders host=10.0.2.10 port=43451
+Oct  1 00:57:21 vm-db-1 postgres[21665]: connection authorized: user=orders database=orders host=10.0.2.10 port=41119
+Oct  1 00:57:47 vm-db-1 postgres[7221]: connection authorized: user=orders database=orders host=10.0.2.10 port=37985
+Oct  1 00:58:06 vm-db-1 postgres[6373]: connection authorized: user=orders database=orders host=10.0.2.10 port=45108
+Oct  1 00:58:22 vm-db-1 postgres[33248]: connection authorized: user=orders database=orders host=10.0.2.10 port=35842
+Oct  1 00:58:45 vm-db-1 postgres[16317]: connection authorized: user=orders database=orders host=10.0.2.10 port=55593
+Oct  1 00:59:03 vm-db-1 postgres[37413]: connection authorized: user=orders database=orders host=10.0.2.10 port=36484
+Oct  1 00:59:24 vm-db-1 postgres[25803]: connection authorized: user=orders database=orders host=10.0.2.10 port=53237
+Oct  1 00:59:45 vm-db-1 postgres[32753]: connection authorized: user=orders database=orders host=10.0.2.10 port=49752
+Oct  1 01:00:05 vm-db-1 postgres[30579]: connection authorized: user=orders database=orders host=10.0.2.10 port=55050
+Oct  1 01:00:24 vm-db-1 postgres[24849]: connection authorized: user=orders database=orders host=10.0.2.10 port=47446
+Oct  1 01:00:29 vm-db-1 CRON[26239]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:00:43 vm-db-1 postgres[31536]: connection authorized: user=orders database=orders host=10.0.2.10 port=43822
+Oct  1 01:01:02 vm-db-1 postgres[34772]: connection authorized: user=orders database=orders host=10.0.2.10 port=37268
+Oct  1 01:01:22 vm-db-1 postgres[24478]: connection authorized: user=orders database=orders host=10.0.2.10 port=45894
+Oct  1 01:01:45 vm-db-1 postgres[30578]: connection authorized: user=orders database=orders host=10.0.2.10 port=33958
+Oct  1 01:02:05 vm-db-1 postgres[11618]: connection authorized: user=orders database=orders host=10.0.2.10 port=41745
+Oct  1 01:02:24 vm-db-1 postgres[11491]: connection authorized: user=orders database=orders host=10.0.2.10 port=59853
+Oct  1 01:02:43 vm-db-1 postgres[8845]: connection authorized: user=orders database=orders host=10.0.2.10 port=51775
+Oct  1 01:03:06 vm-db-1 postgres[39071]: connection authorized: user=orders database=orders host=10.0.2.10 port=54307
+Oct  1 01:03:22 vm-db-1 postgres[5125]: connection authorized: user=orders database=orders host=10.0.2.10 port=49914
+Oct  1 01:03:45 vm-db-1 postgres[20944]: connection authorized: user=orders database=orders host=10.0.2.10 port=33718
+Oct  1 01:04:02 vm-db-1 postgres[30279]: connection authorized: user=orders database=orders host=10.0.2.10 port=51682
+Oct  1 01:04:25 vm-db-1 postgres[25452]: connection authorized: user=orders database=orders host=10.0.2.10 port=57114
+Oct  1 01:04:42 vm-db-1 postgres[4575]: connection authorized: user=orders database=orders host=10.0.2.10 port=44615
+Oct  1 01:05:06 vm-db-1 postgres[3870]: connection authorized: user=orders database=orders host=10.0.2.10 port=57150
+Oct  1 01:05:21 vm-db-1 postgres[24938]: connection authorized: user=orders database=orders host=10.0.2.10 port=35494
+Oct  1 01:05:29 vm-db-1 CRON[32851]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:05:46 vm-db-1 postgres[2852]: connection authorized: user=orders database=orders host=10.0.2.10 port=33775
+Oct  1 01:06:05 vm-db-1 postgres[22510]: connection authorized: user=orders database=orders host=10.0.2.10 port=42164
+Oct  1 01:06:21 vm-db-1 postgres[9908]: connection authorized: user=orders database=orders host=10.0.2.10 port=56820
+Oct  1 01:06:42 vm-db-1 postgres[9502]: connection authorized: user=orders database=orders host=10.0.2.10 port=49682
+Oct  1 01:07:02 vm-db-1 postgres[13087]: connection authorized: user=orders database=orders host=10.0.2.10 port=52265
+Oct  1 01:07:22 vm-db-1 postgres[22748]: connection authorized: user=orders database=orders host=10.0.2.10 port=45326
+Oct  1 01:07:42 vm-db-1 postgres[37581]: connection authorized: user=orders database=orders host=10.0.2.10 port=35120
+Oct  1 01:08:06 vm-db-1 postgres[25154]: connection authorized: user=orders database=orders host=10.0.2.10 port=54680
+Oct  1 01:08:26 vm-db-1 postgres[20494]: connection authorized: user=orders database=orders host=10.0.2.10 port=36809
+Oct  1 01:08:43 vm-db-1 postgres[16321]: connection authorized: user=orders database=orders host=10.0.2.10 port=57087
+Oct  1 01:09:03 vm-db-1 postgres[24957]: connection authorized: user=orders database=orders host=10.0.2.10 port=43600
+Oct  1 01:09:25 vm-db-1 postgres[3822]: connection authorized: user=orders database=orders host=10.0.2.10 port=53725
+Oct  1 01:09:36 vm-db-1 sshd[18264]: Accepted publickey for ops from 10.0.9.5 port 51990 ssh2
+Oct  1 01:09:36 vm-db-1 sshd[18264]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 01:09:44 vm-db-1 postgres[7897]: connection authorized: user=orders database=orders host=10.0.2.10 port=48945
+Oct  1 01:09:52 vm-db-1 sudo[21006]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 01:10:05 vm-db-1 postgres[27725]: connection authorized: user=orders database=orders host=10.0.2.10 port=45510
+Oct  1 01:10:15 vm-db-1 sshd[18264]: pam_unix(sshd:session): session closed for user ops
+Oct  1 01:10:26 vm-db-1 postgres[9223]: connection authorized: user=orders database=orders host=10.0.2.10 port=34905
+Oct  1 01:10:29 vm-db-1 CRON[24019]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:10:43 vm-db-1 postgres[4075]: connection authorized: user=orders database=orders host=10.0.2.10 port=54425
+Oct  1 01:11:02 vm-db-1 postgres[15271]: connection authorized: user=orders database=orders host=10.0.2.10 port=35964
+Oct  1 01:11:24 vm-db-1 postgres[28929]: connection authorized: user=orders database=orders host=10.0.2.10 port=35459
+Oct  1 01:11:44 vm-db-1 postgres[9092]: connection authorized: user=orders database=orders host=10.0.2.10 port=51150
+Oct  1 01:12:06 vm-db-1 postgres[7960]: connection authorized: user=orders database=orders host=10.0.2.10 port=39216
+Oct  1 01:12:22 vm-db-1 postgres[30087]: connection authorized: user=orders database=orders host=10.0.2.10 port=50676
+Oct  1 01:12:43 vm-db-1 postgres[9901]: connection authorized: user=orders database=orders host=10.0.2.10 port=32787
+Oct  1 01:13:04 vm-db-1 postgres[18515]: connection authorized: user=orders database=orders host=10.0.2.10 port=53365
+Oct  1 01:13:27 vm-db-1 postgres[30889]: connection authorized: user=orders database=orders host=10.0.2.10 port=33774
+Oct  1 01:13:45 vm-db-1 postgres[9682]: connection authorized: user=orders database=orders host=10.0.2.10 port=45416
+Oct  1 01:14:05 vm-db-1 postgres[2198]: connection authorized: user=orders database=orders host=10.0.2.10 port=59667
+Oct  1 01:14:25 vm-db-1 postgres[13709]: connection authorized: user=orders database=orders host=10.0.2.10 port=55690
+Oct  1 01:14:44 vm-db-1 postgres[32859]: connection authorized: user=orders database=orders host=10.0.2.10 port=58750
+Oct  1 01:15:07 vm-db-1 postgres[31399]: connection authorized: user=orders database=orders host=10.0.2.10 port=49725
+Oct  1 01:15:21 vm-db-1 postgres[7332]: connection authorized: user=orders database=orders host=10.0.2.10 port=40353
+Oct  1 01:15:29 vm-db-1 CRON[23072]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:15:44 vm-db-1 postgres[24415]: connection authorized: user=orders database=orders host=10.0.2.10 port=54571
+Oct  1 01:16:06 vm-db-1 postgres[13298]: connection authorized: user=orders database=orders host=10.0.2.10 port=39275
+Oct  1 01:16:23 vm-db-1 postgres[32451]: connection authorized: user=orders database=orders host=10.0.2.10 port=44905
+Oct  1 01:16:42 vm-db-1 postgres[29447]: connection authorized: user=orders database=orders host=10.0.2.10 port=37585
+Oct  1 01:17:02 vm-db-1 postgres[32283]: connection authorized: user=orders database=orders host=10.0.2.10 port=47437
+Oct  1 01:17:23 vm-db-1 postgres[2567]: connection authorized: user=orders database=orders host=10.0.2.10 port=50448
+Oct  1 01:17:46 vm-db-1 postgres[30801]: connection authorized: user=orders database=orders host=10.0.2.10 port=48504
+Oct  1 01:18:03 vm-db-1 postgres[27707]: connection authorized: user=orders database=orders host=10.0.2.10 port=42278
+Oct  1 01:18:24 vm-db-1 postgres[36970]: connection authorized: user=orders database=orders host=10.0.2.10 port=50555
+Oct  1 01:18:43 vm-db-1 postgres[28878]: connection authorized: user=orders database=orders host=10.0.2.10 port=50221
+Oct  1 01:19:01 vm-db-1 postgres[9055]: connection authorized: user=orders database=orders host=10.0.2.10 port=35738
+Oct  1 01:19:25 vm-db-1 postgres[16308]: connection authorized: user=orders database=orders host=10.0.2.10 port=52878
+Oct  1 01:19:42 vm-db-1 postgres[34362]: connection authorized: user=orders database=orders host=10.0.2.10 port=52130
+Oct  1 01:20:05 vm-db-1 postgres[9013]: connection authorized: user=orders database=orders host=10.0.2.10 port=56433
+Oct  1 01:20:23 vm-db-1 postgres[25277]: connection authorized: user=orders database=orders host=10.0.2.10 port=40529
+Oct  1 01:20:29 vm-db-1 CRON[15481]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:20:42 vm-db-1 postgres[15534]: connection authorized: user=orders database=orders host=10.0.2.10 port=52458
+Oct  1 01:21:02 vm-db-1 postgres[23785]: connection authorized: user=orders database=orders host=10.0.2.10 port=53579
+Oct  1 01:21:26 vm-db-1 postgres[29674]: connection authorized: user=orders database=orders host=10.0.2.10 port=55583
+Oct  1 01:21:44 vm-db-1 postgres[2972]: connection authorized: user=orders database=orders host=10.0.2.10 port=41250
+Oct  1 01:22:06 vm-db-1 postgres[6195]: connection authorized: user=orders database=orders host=10.0.2.10 port=42415
+Oct  1 01:22:22 vm-db-1 postgres[24762]: connection authorized: user=orders database=orders host=10.0.2.10 port=50320
+Oct  1 01:22:41 vm-db-1 postgres[14978]: connection authorized: user=orders database=orders host=10.0.2.10 port=59800
+Oct  1 01:23:02 vm-db-1 postgres[30903]: connection authorized: user=orders database=orders host=10.0.2.10 port=60149
+Oct  1 01:23:22 vm-db-1 postgres[35305]: connection authorized: user=orders database=orders host=10.0.2.10 port=46859
+Oct  1 01:23:42 vm-db-1 postgres[29120]: connection authorized: user=orders database=orders host=10.0.2.10 port=32855
+Oct  1 01:24:04 vm-db-1 postgres[25377]: connection authorized: user=orders database=orders host=10.0.2.10 port=60911
+Oct  1 01:24:24 vm-db-1 postgres[34936]: connection authorized: user=orders database=orders host=10.0.2.10 port=50023
+Oct  1 01:24:46 vm-db-1 postgres[30536]: connection authorized: user=orders database=orders host=10.0.2.10 port=51862
+Oct  1 01:25:06 vm-db-1 postgres[8532]: connection authorized: user=orders database=orders host=10.0.2.10 port=42990
+Oct  1 01:25:22 vm-db-1 postgres[2287]: connection authorized: user=orders database=orders host=10.0.2.10 port=42706
+Oct  1 01:25:29 vm-db-1 CRON[5597]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:25:42 vm-db-1 sshd[34941]: Accepted publickey for ops from 10.0.9.5 port 56627 ssh2
+Oct  1 01:25:42 vm-db-1 sshd[34941]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 01:25:46 vm-db-1 postgres[24778]: connection authorized: user=orders database=orders host=10.0.2.10 port=46131
+Oct  1 01:26:05 vm-db-1 postgres[24805]: connection authorized: user=orders database=orders host=10.0.2.10 port=35916
+Oct  1 01:26:10 vm-db-1 sudo[25204]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 01:26:21 vm-db-1 sshd[34941]: pam_unix(sshd:session): session closed for user ops
+Oct  1 01:26:23 vm-db-1 postgres[24244]: connection authorized: user=orders database=orders host=10.0.2.10 port=43699
+Oct  1 01:26:43 vm-db-1 postgres[31653]: connection authorized: user=orders database=orders host=10.0.2.10 port=45350
+Oct  1 01:27:04 vm-db-1 postgres[10843]: connection authorized: user=orders database=orders host=10.0.2.10 port=42925
+Oct  1 01:27:26 vm-db-1 postgres[22015]: connection authorized: user=orders database=orders host=10.0.2.10 port=44525
+Oct  1 01:27:46 vm-db-1 postgres[27386]: connection authorized: user=orders database=orders host=10.0.2.10 port=56256
+Oct  1 01:28:07 vm-db-1 postgres[39794]: connection authorized: user=orders database=orders host=10.0.2.10 port=36345
+Oct  1 01:28:22 vm-db-1 postgres[31607]: connection authorized: user=orders database=orders host=10.0.2.10 port=47225
+Oct  1 01:28:45 vm-db-1 postgres[38078]: connection authorized: user=orders database=orders host=10.0.2.10 port=34869
+Oct  1 01:29:02 vm-db-1 postgres[39318]: connection authorized: user=orders database=orders host=10.0.2.10 port=42229
+Oct  1 01:29:27 vm-db-1 postgres[10698]: connection authorized: user=orders database=orders host=10.0.2.10 port=39799
+Oct  1 01:29:42 vm-db-1 postgres[13395]: connection authorized: user=orders database=orders host=10.0.2.10 port=60803
+Oct  1 01:30:06 vm-db-1 postgres[29413]: connection authorized: user=orders database=orders host=10.0.2.10 port=49966
+Oct  1 01:30:24 vm-db-1 postgres[10626]: connection authorized: user=orders database=orders host=10.0.2.10 port=52695
+Oct  1 01:30:29 vm-db-1 CRON[5931]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:30:44 vm-db-1 postgres[2339]: connection authorized: user=orders database=orders host=10.0.2.10 port=39795
+Oct  1 01:31:04 vm-db-1 postgres[12545]: connection authorized: user=orders database=orders host=10.0.2.10 port=60281
+Oct  1 01:31:22 vm-db-1 postgres[27611]: connection authorized: user=orders database=orders host=10.0.2.10 port=59677
+Oct  1 01:31:44 vm-db-1 postgres[33962]: connection authorized: user=orders database=orders host=10.0.2.10 port=58911
+Oct  1 01:32:01 vm-db-1 postgres[30858]: connection authorized: user=orders database=orders host=10.0.2.10 port=35232
+Oct  1 01:32:26 vm-db-1 postgres[10248]: connection authorized: user=orders database=orders host=10.0.2.10 port=33724
+Oct  1 01:32:46 vm-db-1 postgres[3030]: connection authorized: user=orders database=orders host=10.0.2.10 port=39286
+Oct  1 01:33:05 vm-db-1 postgres[6867]: connection authorized: user=orders database=orders host=10.0.2.10 port=54800
+Oct  1 01:33:24 vm-db-1 postgres[25836]: connection authorized: user=orders database=orders host=10.0.2.10 port=59448
+Oct  1 01:33:44 vm-db-1 postgres[20356]: connection authorized: user=orders database=orders host=10.0.2.10 port=38425
+Oct  1 01:33:59 vm-db-1 sshd[9958]: Accepted publickey for dbadmin from 10.0.1.10 port 39123 ssh2
+Oct  1 01:33:59 vm-db-1 sshd[9958]: pam_unix(sshd:session): session opened for user dbadmin(uid=1001) by (uid=0)
+Oct  1 01:34:06 vm-db-1 postgres[31584]: connection authorized: user=orders database=orders host=10.0.2.10 port=48148
+Oct  1 01:34:24 vm-db-1 postgres[13196]: connection authorized: user=orders database=orders host=10.0.2.10 port=56917
+Oct  1 01:34:32 vm-db-1 sudo[38575]: dbadmin : TTY=pts/0 ; PWD=/home/dbadmin ; USER=root ; COMMAND=/usr/bin/pg_dump -Fc customers -f /tmp/.c.dump
+Oct  1 01:34:43 vm-db-1 postgres[15057]: connection authorized: user=orders database=orders host=10.0.2.10 port=54429
+Oct  1 01:34:57 vm-db-1 sudo[5746]: dbadmin : TTY=pts/0 ; PWD=/home/dbadmin ; USER=root ; COMMAND=/usr/bin/tar czf /tmp/.c.tgz /tmp/.c.dump
+Oct  1 01:35:05 vm-db-1 postgres[7056]: connection authorized: user=orders database=orders host=10.0.2.10 port=54366
+Oct  1 01:35:10 vm-db-1 sshd[9958]: pam_unix(sshd:session): session closed for user dbadmin
+Oct  1 01:35:22 vm-db-1 postgres[10815]: connection authorized: user=orders database=orders host=10.0.2.10 port=51919
+Oct  1 01:35:29 vm-db-1 CRON[31853]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:35:43 vm-db-1 postgres[8466]: connection authorized: user=orders database=orders host=10.0.2.10 port=40773
+Oct  1 01:36:01 vm-db-1 postgres[17611]: connection authorized: user=orders database=orders host=10.0.2.10 port=39069
+Oct  1 01:36:22 vm-db-1 postgres[37658]: connection authorized: user=orders database=orders host=10.0.2.10 port=55280
+Oct  1 01:36:44 vm-db-1 postgres[30056]: connection authorized: user=orders database=orders host=10.0.2.10 port=45379
+Oct  1 01:37:02 vm-db-1 postgres[11161]: connection authorized: user=orders database=orders host=10.0.2.10 port=47158
+Oct  1 01:37:22 vm-db-1 postgres[3569]: connection authorized: user=orders database=orders host=10.0.2.10 port=40634
+Oct  1 01:37:43 vm-db-1 postgres[38783]: connection authorized: user=orders database=orders host=10.0.2.10 port=40911
+Oct  1 01:38:01 vm-db-1 postgres[3517]: connection authorized: user=orders database=orders host=10.0.2.10 port=52737
+Oct  1 01:38:26 vm-db-1 postgres[25259]: connection authorized: user=orders database=orders host=10.0.2.10 port=51034
+Oct  1 01:38:41 vm-db-1 postgres[37539]: connection authorized: user=orders database=orders host=10.0.2.10 port=35775
+Oct  1 01:39:04 vm-db-1 postgres[10041]: connection authorized: user=orders database=orders host=10.0.2.10 port=52144
+Oct  1 01:39:11 vm-db-1 sshd[29589]: Accepted publickey for ops from 10.0.9.5 port 50058 ssh2
+Oct  1 01:39:11 vm-db-1 sshd[29589]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 01:39:26 vm-db-1 postgres[27403]: connection authorized: user=orders database=orders host=10.0.2.10 port=36265
+Oct  1 01:39:30 vm-db-1 sudo[17459]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 01:39:45 vm-db-1 postgres[2205]: connection authorized: user=orders database=orders host=10.0.2.10 port=53858
+Oct  1 01:39:48 vm-db-1 sshd[29589]: pam_unix(sshd:session): session closed for user ops
+Oct  1 01:40:02 vm-db-1 postgres[4802]: connection authorized: user=orders database=orders host=10.0.2.10 port=55243
+Oct  1 01:40:22 vm-db-1 postgres[18911]: connection authorized: user=orders database=orders host=10.0.2.10 port=57008
+Oct  1 01:40:29 vm-db-1 CRON[5917]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:40:41 vm-db-1 postgres[17237]: connection authorized: user=orders database=orders host=10.0.2.10 port=40237
+Oct  1 01:41:03 vm-db-1 postgres[26956]: connection authorized: user=orders database=orders host=10.0.2.10 port=60184
+Oct  1 01:41:24 vm-db-1 postgres[10818]: connection authorized: user=orders database=orders host=10.0.2.10 port=58923
+Oct  1 01:41:46 vm-db-1 postgres[32719]: connection authorized: user=orders database=orders host=10.0.2.10 port=32936
+Oct  1 01:42:03 vm-db-1 postgres[25673]: connection authorized: user=orders database=orders host=10.0.2.10 port=58009
+Oct  1 01:42:25 vm-db-1 postgres[24298]: connection authorized: user=orders database=orders host=10.0.2.10 port=33892
+Oct  1 01:42:41 vm-db-1 postgres[38055]: connection authorized: user=orders database=orders host=10.0.2.10 port=53941
+Oct  1 01:43:04 vm-db-1 postgres[11428]: connection authorized: user=orders database=orders host=10.0.2.10 port=60432
+Oct  1 01:43:24 vm-db-1 postgres[3863]: connection authorized: user=orders database=orders host=10.0.2.10 port=57951
+Oct  1 01:43:41 vm-db-1 postgres[20300]: connection authorized: user=orders database=orders host=10.0.2.10 port=45149
+Oct  1 01:44:06 vm-db-1 postgres[26302]: connection authorized: user=orders database=orders host=10.0.2.10 port=55224
+Oct  1 01:44:22 vm-db-1 postgres[35826]: connection authorized: user=orders database=orders host=10.0.2.10 port=35903
+Oct  1 01:44:43 vm-db-1 postgres[35358]: connection authorized: user=orders database=orders host=10.0.2.10 port=43652
+Oct  1 01:45:06 vm-db-1 postgres[29025]: connection authorized: user=orders database=orders host=10.0.2.10 port=48430
+Oct  1 01:45:26 vm-db-1 postgres[38072]: connection authorized: user=orders database=orders host=10.0.2.10 port=51946
+Oct  1 01:45:29 vm-db-1 CRON[14728]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:45:46 vm-db-1 postgres[19442]: connection authorized: user=orders database=orders host=10.0.2.10 port=46465
+Oct  1 01:45:57 vm-db-1 sshd[38383]: Accepted publickey for dbadmin from 10.0.1.10 port 42246 ssh2
+Oct  1 01:45:57 vm-db-1 sshd[38383]: pam_unix(sshd:session): session opened for user dbadmin(uid=1001) by (uid=0)
+Oct  1 01:46:03 vm-db-1 sudo[16494]: dbadmin : TTY=pts/0 ; PWD=/home/dbadmin ; USER=root ; COMMAND=/usr/bin/truncate -s 0 /var/log/auth.log
+Oct  1 01:46:05 vm-db-1 postgres[13102]: connection authorized: user=orders database=orders host=10.0.2.10 port=55003
+Oct  1 01:46:11 vm-db-1 sudo[12027]: dbadmin : TTY=pts/0 ; PWD=/home/dbadmin ; USER=root ; COMMAND=/usr/bin/rm -f /root/.bash_history /tmp/.c.dump /tmp/.c.tgz
+Oct  1 01:46:22 vm-db-1 postgres[30030]: connection authorized: user=orders database=orders host=10.0.2.10 port=50902
+Oct  1 01:46:30 vm-db-1 sshd[38383]: pam_unix(sshd:session): session closed for user dbadmin
+Oct  1 01:46:45 vm-db-1 postgres[20124]: connection authorized: user=orders database=orders host=10.0.2.10 port=52100
+Oct  1 01:47:01 vm-db-1 postgres[6564]: connection authorized: user=orders database=orders host=10.0.2.10 port=40759
+Oct  1 01:47:25 vm-db-1 postgres[3929]: connection authorized: user=orders database=orders host=10.0.2.10 port=46467
+Oct  1 01:47:43 vm-db-1 postgres[8798]: connection authorized: user=orders database=orders host=10.0.2.10 port=60410
+Oct  1 01:48:02 vm-db-1 postgres[28138]: connection authorized: user=orders database=orders host=10.0.2.10 port=55730
+Oct  1 01:48:25 vm-db-1 postgres[18606]: connection authorized: user=orders database=orders host=10.0.2.10 port=60872
+Oct  1 01:48:42 vm-db-1 postgres[24249]: connection authorized: user=orders database=orders host=10.0.2.10 port=36388
+Oct  1 01:49:02 vm-db-1 postgres[26531]: connection authorized: user=orders database=orders host=10.0.2.10 port=36508
+Oct  1 01:49:22 vm-db-1 postgres[28594]: connection authorized: user=orders database=orders host=10.0.2.10 port=48884
+Oct  1 01:49:42 vm-db-1 postgres[6635]: connection authorized: user=orders database=orders host=10.0.2.10 port=43375
+Oct  1 01:50:03 vm-db-1 postgres[6009]: connection authorized: user=orders database=orders host=10.0.2.10 port=38297
+Oct  1 01:50:25 vm-db-1 postgres[9349]: connection authorized: user=orders database=orders host=10.0.2.10 port=56040
+Oct  1 01:50:29 vm-db-1 CRON[30964]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:50:42 vm-db-1 postgres[2776]: connection authorized: user=orders database=orders host=10.0.2.10 port=34720
+Oct  1 01:51:04 vm-db-1 postgres[7598]: connection authorized: user=orders database=orders host=10.0.2.10 port=39349
+Oct  1 01:51:24 vm-db-1 postgres[16532]: connection authorized: user=orders database=orders host=10.0.2.10 port=48586
+Oct  1 01:51:44 vm-db-1 postgres[36452]: connection authorized: user=orders database=orders host=10.0.2.10 port=48237
+Oct  1 01:52:04 vm-db-1 postgres[14011]: connection authorized: user=orders database=orders host=10.0.2.10 port=34260
+Oct  1 01:52:23 vm-db-1 postgres[25041]: connection authorized: user=orders database=orders host=10.0.2.10 port=51040
+Oct  1 01:52:45 vm-db-1 postgres[9132]: connection authorized: user=orders database=orders host=10.0.2.10 port=53318
+Oct  1 01:53:01 vm-db-1 postgres[33666]: connection authorized: user=orders database=orders host=10.0.2.10 port=46836
+Oct  1 01:53:26 vm-db-1 postgres[39341]: connection authorized: user=orders database=orders host=10.0.2.10 port=39687
+Oct  1 01:53:43 vm-db-1 postgres[14177]: connection authorized: user=orders database=orders host=10.0.2.10 port=48023
+Oct  1 01:54:01 vm-db-1 postgres[31951]: connection authorized: user=orders database=orders host=10.0.2.10 port=56547
+Oct  1 01:54:22 vm-db-1 postgres[17975]: connection authorized: user=orders database=orders host=10.0.2.10 port=37322
+Oct  1 01:54:42 vm-db-1 postgres[12738]: connection authorized: user=orders database=orders host=10.0.2.10 port=37677
+Oct  1 01:55:01 vm-db-1 postgres[10451]: connection authorized: user=orders database=orders host=10.0.2.10 port=60125
+Oct  1 01:55:26 vm-db-1 postgres[35536]: connection authorized: user=orders database=orders host=10.0.2.10 port=34907
+Oct  1 01:55:29 vm-db-1 CRON[4866]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 01:55:30 vm-db-1 sshd[16001]: Accepted publickey for ops from 10.0.9.5 port 46112 ssh2
+Oct  1 01:55:30 vm-db-1 sshd[16001]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 01:55:46 vm-db-1 postgres[11098]: connection authorized: user=orders database=orders host=10.0.2.10 port=60037
+Oct  1 01:55:55 vm-db-1 sudo[15120]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 01:56:01 vm-db-1 postgres[39517]: connection authorized: user=orders database=orders host=10.0.2.10 port=43457
+Oct  1 01:56:21 vm-db-1 sshd[16001]: pam_unix(sshd:session): session closed for user ops
+Oct  1 01:56:26 vm-db-1 postgres[2492]: connection authorized: user=orders database=orders host=10.0.2.10 port=60208
+Oct  1 01:56:45 vm-db-1 postgres[36405]: connection authorized: user=orders database=orders host=10.0.2.10 port=56273
+Oct  1 01:57:02 vm-db-1 postgres[23406]: connection authorized: user=orders database=orders host=10.0.2.10 port=47541
+Oct  1 01:57:23 vm-db-1 postgres[10585]: connection authorized: user=orders database=orders host=10.0.2.10 port=34720
+Oct  1 01:57:45 vm-db-1 postgres[33255]: connection authorized: user=orders database=orders host=10.0.2.10 port=48398
+Oct  1 01:58:06 vm-db-1 postgres[10662]: connection authorized: user=orders database=orders host=10.0.2.10 port=49837
+Oct  1 01:58:26 vm-db-1 postgres[27436]: connection authorized: user=orders database=orders host=10.0.2.10 port=57324
+Oct  1 01:58:43 vm-db-1 postgres[26765]: connection authorized: user=orders database=orders host=10.0.2.10 port=42282
+Oct  1 01:59:02 vm-db-1 postgres[6134]: connection authorized: user=orders database=orders host=10.0.2.10 port=60353
+Oct  1 01:59:23 vm-db-1 postgres[24929]: connection authorized: user=orders database=orders host=10.0.2.10 port=48405
+Oct  1 01:59:41 vm-db-1 postgres[29589]: connection authorized: user=orders database=orders host=10.0.2.10 port=48175
+Oct  1 02:00:02 vm-db-1 postgres[21030]: connection authorized: user=orders database=orders host=10.0.2.10 port=43866
+Oct  1 02:00:22 vm-db-1 postgres[22165]: connection authorized: user=orders database=orders host=10.0.2.10 port=35183
+Oct  1 02:00:29 vm-db-1 CRON[5696]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:00:44 vm-db-1 postgres[27946]: connection authorized: user=orders database=orders host=10.0.2.10 port=57942
+Oct  1 02:01:01 vm-db-1 postgres[12970]: connection authorized: user=orders database=orders host=10.0.2.10 port=57386
+Oct  1 02:01:25 vm-db-1 postgres[20711]: connection authorized: user=orders database=orders host=10.0.2.10 port=50802
+Oct  1 02:01:41 vm-db-1 postgres[39281]: connection authorized: user=orders database=orders host=10.0.2.10 port=55689
+Oct  1 02:02:04 vm-db-1 postgres[28149]: connection authorized: user=orders database=orders host=10.0.2.10 port=51259
+Oct  1 02:02:24 vm-db-1 postgres[35492]: connection authorized: user=orders database=orders host=10.0.2.10 port=53619
+Oct  1 02:02:46 vm-db-1 postgres[31545]: connection authorized: user=orders database=orders host=10.0.2.10 port=57253
+Oct  1 02:03:03 vm-db-1 postgres[5628]: connection authorized: user=orders database=orders host=10.0.2.10 port=45247
+Oct  1 02:03:22 vm-db-1 postgres[6093]: connection authorized: user=orders database=orders host=10.0.2.10 port=39745
+Oct  1 02:03:45 vm-db-1 postgres[35841]: connection authorized: user=orders database=orders host=10.0.2.10 port=55013
+Oct  1 02:04:07 vm-db-1 postgres[19304]: connection authorized: user=orders database=orders host=10.0.2.10 port=58595
+Oct  1 02:04:24 vm-db-1 postgres[17931]: connection authorized: user=orders database=orders host=10.0.2.10 port=34526
+Oct  1 02:04:46 vm-db-1 postgres[16203]: connection authorized: user=orders database=orders host=10.0.2.10 port=42449
+Oct  1 02:05:05 vm-db-1 postgres[5961]: connection authorized: user=orders database=orders host=10.0.2.10 port=55957
+Oct  1 02:05:26 vm-db-1 postgres[8777]: connection authorized: user=orders database=orders host=10.0.2.10 port=38302
+Oct  1 02:05:29 vm-db-1 CRON[4473]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:05:45 vm-db-1 postgres[39407]: connection authorized: user=orders database=orders host=10.0.2.10 port=47022
+Oct  1 02:06:05 vm-db-1 postgres[6546]: connection authorized: user=orders database=orders host=10.0.2.10 port=45488
+Oct  1 02:06:25 vm-db-1 postgres[24786]: connection authorized: user=orders database=orders host=10.0.2.10 port=48289
+Oct  1 02:06:46 vm-db-1 postgres[15500]: connection authorized: user=orders database=orders host=10.0.2.10 port=34576
+Oct  1 02:07:06 vm-db-1 postgres[25105]: connection authorized: user=orders database=orders host=10.0.2.10 port=47535
+Oct  1 02:07:23 vm-db-1 postgres[37061]: connection authorized: user=orders database=orders host=10.0.2.10 port=34121
+Oct  1 02:07:46 vm-db-1 postgres[32101]: connection authorized: user=orders database=orders host=10.0.2.10 port=50623
+Oct  1 02:08:05 vm-db-1 postgres[38932]: connection authorized: user=orders database=orders host=10.0.2.10 port=59579
+Oct  1 02:08:26 vm-db-1 postgres[17757]: connection authorized: user=orders database=orders host=10.0.2.10 port=44176
+Oct  1 02:08:43 vm-db-1 postgres[36949]: connection authorized: user=orders database=orders host=10.0.2.10 port=44272
+Oct  1 02:09:02 vm-db-1 postgres[20600]: connection authorized: user=orders database=orders host=10.0.2.10 port=38724
+Oct  1 02:09:25 vm-db-1 postgres[13424]: connection authorized: user=orders database=orders host=10.0.2.10 port=48049
+Oct  1 02:09:46 vm-db-1 postgres[6901]: connection authorized: user=orders database=orders host=10.0.2.10 port=37534
+Oct  1 02:10:03 vm-db-1 postgres[26481]: connection authorized: user=orders database=orders host=10.0.2.10 port=36791
+Oct  1 02:10:06 vm-db-1 sshd[13587]: Accepted publickey for ops from 10.0.9.5 port 46902 ssh2
+Oct  1 02:10:06 vm-db-1 sshd[13587]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 02:10:25 vm-db-1 postgres[7639]: connection authorized: user=orders database=orders host=10.0.2.10 port=58802
+Oct  1 02:10:29 vm-db-1 CRON[35319]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:10:41 vm-db-1 sudo[24141]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 02:10:45 vm-db-1 postgres[20579]: connection authorized: user=orders database=orders host=10.0.2.10 port=46711
+Oct  1 02:10:53 vm-db-1 sshd[13587]: pam_unix(sshd:session): session closed for user ops
+Oct  1 02:11:02 vm-db-1 postgres[5145]: connection authorized: user=orders database=orders host=10.0.2.10 port=35462
+Oct  1 02:11:25 vm-db-1 postgres[33424]: connection authorized: user=orders database=orders host=10.0.2.10 port=37597
+Oct  1 02:11:47 vm-db-1 postgres[31390]: connection authorized: user=orders database=orders host=10.0.2.10 port=48626
+Oct  1 02:12:03 vm-db-1 postgres[21907]: connection authorized: user=orders database=orders host=10.0.2.10 port=37005
+Oct  1 02:12:26 vm-db-1 postgres[2869]: connection authorized: user=orders database=orders host=10.0.2.10 port=33033
+Oct  1 02:12:46 vm-db-1 postgres[39002]: connection authorized: user=orders database=orders host=10.0.2.10 port=36638
+Oct  1 02:13:01 vm-db-1 postgres[25005]: connection authorized: user=orders database=orders host=10.0.2.10 port=45689
+Oct  1 02:13:23 vm-db-1 postgres[11406]: connection authorized: user=orders database=orders host=10.0.2.10 port=60764
+Oct  1 02:13:42 vm-db-1 postgres[18880]: connection authorized: user=orders database=orders host=10.0.2.10 port=47513
+Oct  1 02:14:06 vm-db-1 postgres[24859]: connection authorized: user=orders database=orders host=10.0.2.10 port=55201
+Oct  1 02:14:24 vm-db-1 postgres[8325]: connection authorized: user=orders database=orders host=10.0.2.10 port=60791
+Oct  1 02:14:45 vm-db-1 postgres[30828]: connection authorized: user=orders database=orders host=10.0.2.10 port=33511
+Oct  1 02:15:07 vm-db-1 postgres[14112]: connection authorized: user=orders database=orders host=10.0.2.10 port=50988
+Oct  1 02:15:23 vm-db-1 postgres[24555]: connection authorized: user=orders database=orders host=10.0.2.10 port=39627
+Oct  1 02:15:29 vm-db-1 CRON[26843]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:15:47 vm-db-1 postgres[9847]: connection authorized: user=orders database=orders host=10.0.2.10 port=48999
+Oct  1 02:16:05 vm-db-1 postgres[32744]: connection authorized: user=orders database=orders host=10.0.2.10 port=41477
+Oct  1 02:16:25 vm-db-1 postgres[4093]: connection authorized: user=orders database=orders host=10.0.2.10 port=39654
+Oct  1 02:16:46 vm-db-1 postgres[30110]: connection authorized: user=orders database=orders host=10.0.2.10 port=59391
+Oct  1 02:17:05 vm-db-1 postgres[16913]: connection authorized: user=orders database=orders host=10.0.2.10 port=39433
+Oct  1 02:17:22 vm-db-1 postgres[39610]: connection authorized: user=orders database=orders host=10.0.2.10 port=59597
+Oct  1 02:17:42 vm-db-1 postgres[18993]: connection authorized: user=orders database=orders host=10.0.2.10 port=39356
+Oct  1 02:18:05 vm-db-1 postgres[30955]: connection authorized: user=orders database=orders host=10.0.2.10 port=41813
+Oct  1 02:18:26 vm-db-1 postgres[34501]: connection authorized: user=orders database=orders host=10.0.2.10 port=43971
+Oct  1 02:18:41 vm-db-1 postgres[13909]: connection authorized: user=orders database=orders host=10.0.2.10 port=48524
+Oct  1 02:19:04 vm-db-1 postgres[14604]: connection authorized: user=orders database=orders host=10.0.2.10 port=41643
+Oct  1 02:19:26 vm-db-1 postgres[15744]: connection authorized: user=orders database=orders host=10.0.2.10 port=33957
+Oct  1 02:19:43 vm-db-1 postgres[36561]: connection authorized: user=orders database=orders host=10.0.2.10 port=57366
+Oct  1 02:20:02 vm-db-1 postgres[17506]: connection authorized: user=orders database=orders host=10.0.2.10 port=57753
+Oct  1 02:20:23 vm-db-1 postgres[20548]: connection authorized: user=orders database=orders host=10.0.2.10 port=36133
+Oct  1 02:20:29 vm-db-1 CRON[39226]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:20:44 vm-db-1 postgres[21060]: connection authorized: user=orders database=orders host=10.0.2.10 port=47704
+Oct  1 02:21:03 vm-db-1 postgres[11531]: connection authorized: user=orders database=orders host=10.0.2.10 port=44166
+Oct  1 02:21:23 vm-db-1 postgres[29729]: connection authorized: user=orders database=orders host=10.0.2.10 port=52445
+Oct  1 02:21:43 vm-db-1 postgres[22893]: connection authorized: user=orders database=orders host=10.0.2.10 port=46059
+Oct  1 02:22:01 vm-db-1 postgres[28083]: connection authorized: user=orders database=orders host=10.0.2.10 port=36691
+Oct  1 02:22:27 vm-db-1 postgres[8899]: connection authorized: user=orders database=orders host=10.0.2.10 port=42341
+Oct  1 02:22:45 vm-db-1 postgres[16196]: connection authorized: user=orders database=orders host=10.0.2.10 port=57080
+Oct  1 02:23:04 vm-db-1 postgres[4755]: connection authorized: user=orders database=orders host=10.0.2.10 port=32966
+Oct  1 02:23:26 vm-db-1 postgres[33365]: connection authorized: user=orders database=orders host=10.0.2.10 port=40264
+Oct  1 02:23:43 vm-db-1 postgres[36247]: connection authorized: user=orders database=orders host=10.0.2.10 port=42003
+Oct  1 02:24:03 vm-db-1 postgres[30099]: connection authorized: user=orders database=orders host=10.0.2.10 port=58284
+Oct  1 02:24:23 vm-db-1 postgres[12726]: connection authorized: user=orders database=orders host=10.0.2.10 port=36174
+Oct  1 02:24:43 vm-db-1 postgres[36341]: connection authorized: user=orders database=orders host=10.0.2.10 port=44711
+Oct  1 02:24:53 vm-db-1 sshd[19760]: Accepted publickey for ops from 10.0.9.5 port 40477 ssh2
+Oct  1 02:24:53 vm-db-1 sshd[19760]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 02:25:05 vm-db-1 postgres[24548]: connection authorized: user=orders database=orders host=10.0.2.10 port=60800
+Oct  1 02:25:09 vm-db-1 sudo[39915]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 02:25:23 vm-db-1 postgres[28548]: connection authorized: user=orders database=orders host=10.0.2.10 port=49284
+Oct  1 02:25:29 vm-db-1 CRON[25190]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:25:30 vm-db-1 sshd[19760]: pam_unix(sshd:session): session closed for user ops
+Oct  1 02:25:44 vm-db-1 postgres[9847]: connection authorized: user=orders database=orders host=10.0.2.10 port=37945
+Oct  1 02:26:01 vm-db-1 postgres[28340]: connection authorized: user=orders database=orders host=10.0.2.10 port=41307
+Oct  1 02:26:23 vm-db-1 postgres[19787]: connection authorized: user=orders database=orders host=10.0.2.10 port=46760
+Oct  1 02:26:43 vm-db-1 postgres[12661]: connection authorized: user=orders database=orders host=10.0.2.10 port=42756
+Oct  1 02:27:02 vm-db-1 postgres[25917]: connection authorized: user=orders database=orders host=10.0.2.10 port=35979
+Oct  1 02:27:21 vm-db-1 postgres[22051]: connection authorized: user=orders database=orders host=10.0.2.10 port=34964
+Oct  1 02:27:44 vm-db-1 postgres[11255]: connection authorized: user=orders database=orders host=10.0.2.10 port=51543
+Oct  1 02:28:04 vm-db-1 postgres[18897]: connection authorized: user=orders database=orders host=10.0.2.10 port=32884
+Oct  1 02:28:21 vm-db-1 postgres[8113]: connection authorized: user=orders database=orders host=10.0.2.10 port=33630
+Oct  1 02:28:44 vm-db-1 postgres[37991]: connection authorized: user=orders database=orders host=10.0.2.10 port=56544
+Oct  1 02:29:03 vm-db-1 postgres[38343]: connection authorized: user=orders database=orders host=10.0.2.10 port=54694
+Oct  1 02:29:24 vm-db-1 postgres[24098]: connection authorized: user=orders database=orders host=10.0.2.10 port=47580
+Oct  1 02:29:44 vm-db-1 postgres[5097]: connection authorized: user=orders database=orders host=10.0.2.10 port=36905
+Oct  1 02:30:04 vm-db-1 postgres[15417]: connection authorized: user=orders database=orders host=10.0.2.10 port=59031
+Oct  1 02:30:25 vm-db-1 postgres[22718]: connection authorized: user=orders database=orders host=10.0.2.10 port=47153
+Oct  1 02:30:29 vm-db-1 CRON[35330]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:30:42 vm-db-1 postgres[20069]: connection authorized: user=orders database=orders host=10.0.2.10 port=39770
+Oct  1 02:31:05 vm-db-1 postgres[11323]: connection authorized: user=orders database=orders host=10.0.2.10 port=47423
+Oct  1 02:31:24 vm-db-1 postgres[8145]: connection authorized: user=orders database=orders host=10.0.2.10 port=33604
+Oct  1 02:31:45 vm-db-1 postgres[22230]: connection authorized: user=orders database=orders host=10.0.2.10 port=58751
+Oct  1 02:32:04 vm-db-1 postgres[22161]: connection authorized: user=orders database=orders host=10.0.2.10 port=46589
+Oct  1 02:32:24 vm-db-1 postgres[31742]: connection authorized: user=orders database=orders host=10.0.2.10 port=45521
+Oct  1 02:32:47 vm-db-1 postgres[39667]: connection authorized: user=orders database=orders host=10.0.2.10 port=46176
+Oct  1 02:33:03 vm-db-1 postgres[26846]: connection authorized: user=orders database=orders host=10.0.2.10 port=56153
+Oct  1 02:33:23 vm-db-1 postgres[10474]: connection authorized: user=orders database=orders host=10.0.2.10 port=53294
+Oct  1 02:33:44 vm-db-1 postgres[3777]: connection authorized: user=orders database=orders host=10.0.2.10 port=58994
+Oct  1 02:34:02 vm-db-1 postgres[39804]: connection authorized: user=orders database=orders host=10.0.2.10 port=46981
+Oct  1 02:34:24 vm-db-1 postgres[21880]: connection authorized: user=orders database=orders host=10.0.2.10 port=38818
+Oct  1 02:34:45 vm-db-1 postgres[29759]: connection authorized: user=orders database=orders host=10.0.2.10 port=34418
+Oct  1 02:35:02 vm-db-1 postgres[24018]: connection authorized: user=orders database=orders host=10.0.2.10 port=55399
+Oct  1 02:35:25 vm-db-1 postgres[13550]: connection authorized: user=orders database=orders host=10.0.2.10 port=37112
+Oct  1 02:35:29 vm-db-1 CRON[31699]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:35:41 vm-db-1 postgres[25628]: connection authorized: user=orders database=orders host=10.0.2.10 port=44804
+Oct  1 02:36:03 vm-db-1 postgres[38242]: connection authorized: user=orders database=orders host=10.0.2.10 port=53311
+Oct  1 02:36:26 vm-db-1 postgres[2302]: connection authorized: user=orders database=orders host=10.0.2.10 port=41710
+Oct  1 02:36:47 vm-db-1 postgres[33381]: connection authorized: user=orders database=orders host=10.0.2.10 port=37168
+Oct  1 02:37:07 vm-db-1 postgres[26969]: connection authorized: user=orders database=orders host=10.0.2.10 port=35771
+Oct  1 02:37:24 vm-db-1 postgres[38528]: connection authorized: user=orders database=orders host=10.0.2.10 port=34075
+Oct  1 02:37:42 vm-db-1 postgres[21726]: connection authorized: user=orders database=orders host=10.0.2.10 port=57534
+Oct  1 02:38:04 vm-db-1 postgres[14299]: connection authorized: user=orders database=orders host=10.0.2.10 port=43418
+Oct  1 02:38:24 vm-db-1 postgres[14680]: connection authorized: user=orders database=orders host=10.0.2.10 port=53391
+Oct  1 02:38:45 vm-db-1 postgres[4571]: connection authorized: user=orders database=orders host=10.0.2.10 port=60487
+Oct  1 02:39:05 vm-db-1 postgres[33887]: connection authorized: user=orders database=orders host=10.0.2.10 port=60568
+Oct  1 02:39:24 vm-db-1 postgres[33982]: connection authorized: user=orders database=orders host=10.0.2.10 port=47005
+Oct  1 02:39:27 vm-db-1 sshd[38513]: Accepted publickey for ops from 10.0.9.5 port 32855 ssh2
+Oct  1 02:39:27 vm-db-1 sshd[38513]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 02:39:40 vm-db-1 sudo[27538]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 02:39:46 vm-db-1 postgres[29797]: connection authorized: user=orders database=orders host=10.0.2.10 port=41846
+Oct  1 02:40:01 vm-db-1 postgres[11339]: connection authorized: user=orders database=orders host=10.0.2.10 port=36637
+Oct  1 02:40:03 vm-db-1 sshd[38513]: pam_unix(sshd:session): session closed for user ops
+Oct  1 02:40:26 vm-db-1 postgres[33720]: connection authorized: user=orders database=orders host=10.0.2.10 port=53787
+Oct  1 02:40:29 vm-db-1 CRON[36241]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:40:41 vm-db-1 postgres[13898]: connection authorized: user=orders database=orders host=10.0.2.10 port=44728
+Oct  1 02:41:04 vm-db-1 postgres[13380]: connection authorized: user=orders database=orders host=10.0.2.10 port=50230
+Oct  1 02:41:24 vm-db-1 postgres[21756]: connection authorized: user=orders database=orders host=10.0.2.10 port=49297
+Oct  1 02:41:44 vm-db-1 postgres[37493]: connection authorized: user=orders database=orders host=10.0.2.10 port=53234
+Oct  1 02:42:01 vm-db-1 postgres[20531]: connection authorized: user=orders database=orders host=10.0.2.10 port=32863
+Oct  1 02:42:22 vm-db-1 postgres[15404]: connection authorized: user=orders database=orders host=10.0.2.10 port=45797
+Oct  1 02:42:44 vm-db-1 postgres[3157]: connection authorized: user=orders database=orders host=10.0.2.10 port=33164
+Oct  1 02:43:06 vm-db-1 postgres[38934]: connection authorized: user=orders database=orders host=10.0.2.10 port=35818
+Oct  1 02:43:21 vm-db-1 postgres[31149]: connection authorized: user=orders database=orders host=10.0.2.10 port=38386
+Oct  1 02:43:46 vm-db-1 postgres[9250]: connection authorized: user=orders database=orders host=10.0.2.10 port=38266
+Oct  1 02:44:06 vm-db-1 postgres[13442]: connection authorized: user=orders database=orders host=10.0.2.10 port=60651
+Oct  1 02:44:23 vm-db-1 postgres[10897]: connection authorized: user=orders database=orders host=10.0.2.10 port=40652
+Oct  1 02:44:46 vm-db-1 postgres[15662]: connection authorized: user=orders database=orders host=10.0.2.10 port=60675
+Oct  1 02:45:05 vm-db-1 postgres[17848]: connection authorized: user=orders database=orders host=10.0.2.10 port=37195
+Oct  1 02:45:24 vm-db-1 postgres[15014]: connection authorized: user=orders database=orders host=10.0.2.10 port=39853
+Oct  1 02:45:29 vm-db-1 CRON[23152]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:45:43 vm-db-1 postgres[8044]: connection authorized: user=orders database=orders host=10.0.2.10 port=52972
+Oct  1 02:46:04 vm-db-1 postgres[33838]: connection authorized: user=orders database=orders host=10.0.2.10 port=51494
+Oct  1 02:46:23 vm-db-1 postgres[14799]: connection authorized: user=orders database=orders host=10.0.2.10 port=32889
+Oct  1 02:46:45 vm-db-1 postgres[30534]: connection authorized: user=orders database=orders host=10.0.2.10 port=41394
+Oct  1 02:47:03 vm-db-1 postgres[13477]: connection authorized: user=orders database=orders host=10.0.2.10 port=51080
+Oct  1 02:47:25 vm-db-1 postgres[27102]: connection authorized: user=orders database=orders host=10.0.2.10 port=40957
+Oct  1 02:47:44 vm-db-1 postgres[31436]: connection authorized: user=orders database=orders host=10.0.2.10 port=41711
+Oct  1 02:48:03 vm-db-1 postgres[34799]: connection authorized: user=orders database=orders host=10.0.2.10 port=46332
+Oct  1 02:48:21 vm-db-1 postgres[19958]: connection authorized: user=orders database=orders host=10.0.2.10 port=40411
+Oct  1 02:48:46 vm-db-1 postgres[36321]: connection authorized: user=orders database=orders host=10.0.2.10 port=51687
+Oct  1 02:49:03 vm-db-1 postgres[6944]: connection authorized: user=orders database=orders host=10.0.2.10 port=42035
+Oct  1 02:49:26 vm-db-1 postgres[16926]: connection authorized: user=orders database=orders host=10.0.2.10 port=57075
+Oct  1 02:49:43 vm-db-1 postgres[26296]: connection authorized: user=orders database=orders host=10.0.2.10 port=54727
+Oct  1 02:50:02 vm-db-1 postgres[3480]: connection authorized: user=orders database=orders host=10.0.2.10 port=54069
+Oct  1 02:50:24 vm-db-1 postgres[5736]: connection authorized: user=orders database=orders host=10.0.2.10 port=45226
+Oct  1 02:50:29 vm-db-1 CRON[28740]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:50:41 vm-db-1 postgres[2000]: connection authorized: user=orders database=orders host=10.0.2.10 port=43834
+Oct  1 02:51:05 vm-db-1 postgres[27290]: connection authorized: user=orders database=orders host=10.0.2.10 port=35628
+Oct  1 02:51:21 vm-db-1 postgres[25205]: connection authorized: user=orders database=orders host=10.0.2.10 port=39609
+Oct  1 02:51:42 vm-db-1 postgres[7781]: connection authorized: user=orders database=orders host=10.0.2.10 port=59680
+Oct  1 02:52:03 vm-db-1 postgres[3527]: connection authorized: user=orders database=orders host=10.0.2.10 port=46925
+Oct  1 02:52:24 vm-db-1 postgres[8519]: connection authorized: user=orders database=orders host=10.0.2.10 port=44209
+Oct  1 02:52:43 vm-db-1 postgres[31336]: connection authorized: user=orders database=orders host=10.0.2.10 port=51513
+Oct  1 02:53:03 vm-db-1 postgres[24471]: connection authorized: user=orders database=orders host=10.0.2.10 port=55594
+Oct  1 02:53:25 vm-db-1 postgres[11930]: connection authorized: user=orders database=orders host=10.0.2.10 port=49584
+Oct  1 02:53:43 vm-db-1 postgres[12179]: connection authorized: user=orders database=orders host=10.0.2.10 port=35625
+Oct  1 02:54:01 vm-db-1 postgres[8328]: connection authorized: user=orders database=orders host=10.0.2.10 port=41862
+Oct  1 02:54:22 vm-db-1 sshd[3055]: Accepted publickey for ops from 10.0.9.5 port 45208 ssh2
+Oct  1 02:54:22 vm-db-1 sshd[3055]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 02:54:24 vm-db-1 postgres[7929]: connection authorized: user=orders database=orders host=10.0.2.10 port=53218
+Oct  1 02:54:40 vm-db-1 sudo[24901]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 02:54:46 vm-db-1 postgres[2315]: connection authorized: user=orders database=orders host=10.0.2.10 port=35704
+Oct  1 02:54:47 vm-db-1 sshd[3055]: pam_unix(sshd:session): session closed for user ops
+Oct  1 02:55:01 vm-db-1 postgres[35460]: connection authorized: user=orders database=orders host=10.0.2.10 port=58829
+Oct  1 02:55:26 vm-db-1 postgres[5887]: connection authorized: user=orders database=orders host=10.0.2.10 port=42490
+Oct  1 02:55:29 vm-db-1 CRON[4789]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 02:55:45 vm-db-1 postgres[19064]: connection authorized: user=orders database=orders host=10.0.2.10 port=39965
+Oct  1 02:56:03 vm-db-1 postgres[34954]: connection authorized: user=orders database=orders host=10.0.2.10 port=59110
+Oct  1 02:56:26 vm-db-1 postgres[8874]: connection authorized: user=orders database=orders host=10.0.2.10 port=50327
+Oct  1 02:56:47 vm-db-1 postgres[17466]: connection authorized: user=orders database=orders host=10.0.2.10 port=59322
+Oct  1 02:57:03 vm-db-1 postgres[6626]: connection authorized: user=orders database=orders host=10.0.2.10 port=48652
+Oct  1 02:57:22 vm-db-1 postgres[38910]: connection authorized: user=orders database=orders host=10.0.2.10 port=36033
+Oct  1 02:57:42 vm-db-1 postgres[26310]: connection authorized: user=orders database=orders host=10.0.2.10 port=52442
+Oct  1 02:58:04 vm-db-1 postgres[38610]: connection authorized: user=orders database=orders host=10.0.2.10 port=35862
+Oct  1 02:58:24 vm-db-1 postgres[31610]: connection authorized: user=orders database=orders host=10.0.2.10 port=37732
+Oct  1 02:58:43 vm-db-1 postgres[20081]: connection authorized: user=orders database=orders host=10.0.2.10 port=53576
+Oct  1 02:59:04 vm-db-1 postgres[14907]: connection authorized: user=orders database=orders host=10.0.2.10 port=54212
+Oct  1 02:59:26 vm-db-1 postgres[17727]: connection authorized: user=orders database=orders host=10.0.2.10 port=56578
+Oct  1 02:59:44 vm-db-1 postgres[29065]: connection authorized: user=orders database=orders host=10.0.2.10 port=58227
+Oct  1 03:00:04 vm-db-1 postgres[22841]: connection authorized: user=orders database=orders host=10.0.2.10 port=39330
+Oct  1 03:00:23 vm-db-1 postgres[29087]: connection authorized: user=orders database=orders host=10.0.2.10 port=39120
+Oct  1 03:00:29 vm-db-1 CRON[22886]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:00:44 vm-db-1 postgres[7371]: connection authorized: user=orders database=orders host=10.0.2.10 port=50914
+Oct  1 03:01:04 vm-db-1 postgres[39682]: connection authorized: user=orders database=orders host=10.0.2.10 port=59067
+Oct  1 03:01:26 vm-db-1 postgres[3972]: connection authorized: user=orders database=orders host=10.0.2.10 port=49879
+Oct  1 03:01:42 vm-db-1 postgres[37162]: connection authorized: user=orders database=orders host=10.0.2.10 port=41354
+Oct  1 03:02:06 vm-db-1 postgres[29971]: connection authorized: user=orders database=orders host=10.0.2.10 port=38024
+Oct  1 03:02:22 vm-db-1 postgres[23389]: connection authorized: user=orders database=orders host=10.0.2.10 port=54019
+Oct  1 03:02:46 vm-db-1 postgres[21276]: connection authorized: user=orders database=orders host=10.0.2.10 port=50320
+Oct  1 03:03:03 vm-db-1 postgres[4759]: connection authorized: user=orders database=orders host=10.0.2.10 port=42236
+Oct  1 03:03:21 vm-db-1 postgres[37403]: connection authorized: user=orders database=orders host=10.0.2.10 port=48044
+Oct  1 03:03:46 vm-db-1 postgres[39466]: connection authorized: user=orders database=orders host=10.0.2.10 port=50991
+Oct  1 03:04:01 vm-db-1 postgres[16468]: connection authorized: user=orders database=orders host=10.0.2.10 port=38513
+Oct  1 03:04:23 vm-db-1 postgres[13176]: connection authorized: user=orders database=orders host=10.0.2.10 port=42269
+Oct  1 03:04:43 vm-db-1 postgres[3167]: connection authorized: user=orders database=orders host=10.0.2.10 port=40482
+Oct  1 03:05:01 vm-db-1 postgres[2188]: connection authorized: user=orders database=orders host=10.0.2.10 port=52929
+Oct  1 03:05:22 vm-db-1 postgres[27460]: connection authorized: user=orders database=orders host=10.0.2.10 port=53544
+Oct  1 03:05:29 vm-db-1 CRON[27224]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:05:42 vm-db-1 postgres[28917]: connection authorized: user=orders database=orders host=10.0.2.10 port=44154
+Oct  1 03:06:03 vm-db-1 postgres[23535]: connection authorized: user=orders database=orders host=10.0.2.10 port=46905
+Oct  1 03:06:24 vm-db-1 postgres[14106]: connection authorized: user=orders database=orders host=10.0.2.10 port=33676
+Oct  1 03:06:42 vm-db-1 postgres[3104]: connection authorized: user=orders database=orders host=10.0.2.10 port=38829
+Oct  1 03:07:02 vm-db-1 postgres[27535]: connection authorized: user=orders database=orders host=10.0.2.10 port=48892
+Oct  1 03:07:25 vm-db-1 postgres[8162]: connection authorized: user=orders database=orders host=10.0.2.10 port=36526
+Oct  1 03:07:44 vm-db-1 postgres[36273]: connection authorized: user=orders database=orders host=10.0.2.10 port=38441
+Oct  1 03:08:06 vm-db-1 postgres[17521]: connection authorized: user=orders database=orders host=10.0.2.10 port=56252
+Oct  1 03:08:26 vm-db-1 postgres[34536]: connection authorized: user=orders database=orders host=10.0.2.10 port=58576
+Oct  1 03:08:45 vm-db-1 postgres[36364]: connection authorized: user=orders database=orders host=10.0.2.10 port=35955
+Oct  1 03:09:03 vm-db-1 postgres[8572]: connection authorized: user=orders database=orders host=10.0.2.10 port=39086
+Oct  1 03:09:23 vm-db-1 postgres[39771]: connection authorized: user=orders database=orders host=10.0.2.10 port=56625
+Oct  1 03:09:46 vm-db-1 postgres[10780]: connection authorized: user=orders database=orders host=10.0.2.10 port=35869
+Oct  1 03:10:02 vm-db-1 postgres[25800]: connection authorized: user=orders database=orders host=10.0.2.10 port=46366
+Oct  1 03:10:09 vm-db-1 sshd[30689]: Accepted publickey for ops from 10.0.9.5 port 48710 ssh2
+Oct  1 03:10:09 vm-db-1 sshd[30689]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 03:10:25 vm-db-1 postgres[25272]: connection authorized: user=orders database=orders host=10.0.2.10 port=45283
+Oct  1 03:10:29 vm-db-1 CRON[25122]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:10:42 vm-db-1 sudo[31104]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 03:10:46 vm-db-1 postgres[2588]: connection authorized: user=orders database=orders host=10.0.2.10 port=44559
+Oct  1 03:10:48 vm-db-1 sshd[30689]: pam_unix(sshd:session): session closed for user ops
+Oct  1 03:11:01 vm-db-1 postgres[23551]: connection authorized: user=orders database=orders host=10.0.2.10 port=50574
+Oct  1 03:11:22 vm-db-1 postgres[2398]: connection authorized: user=orders database=orders host=10.0.2.10 port=50026
+Oct  1 03:11:45 vm-db-1 postgres[20628]: connection authorized: user=orders database=orders host=10.0.2.10 port=53541
+Oct  1 03:12:05 vm-db-1 postgres[8039]: connection authorized: user=orders database=orders host=10.0.2.10 port=49109
+Oct  1 03:12:24 vm-db-1 postgres[39873]: connection authorized: user=orders database=orders host=10.0.2.10 port=53779
+Oct  1 03:12:44 vm-db-1 postgres[38231]: connection authorized: user=orders database=orders host=10.0.2.10 port=48656
+Oct  1 03:13:05 vm-db-1 postgres[27654]: connection authorized: user=orders database=orders host=10.0.2.10 port=43301
+Oct  1 03:13:26 vm-db-1 postgres[12516]: connection authorized: user=orders database=orders host=10.0.2.10 port=55928
+Oct  1 03:13:43 vm-db-1 postgres[37902]: connection authorized: user=orders database=orders host=10.0.2.10 port=44907
+Oct  1 03:14:01 vm-db-1 postgres[4667]: connection authorized: user=orders database=orders host=10.0.2.10 port=41230
+Oct  1 03:14:24 vm-db-1 postgres[3166]: connection authorized: user=orders database=orders host=10.0.2.10 port=34150
+Oct  1 03:14:45 vm-db-1 postgres[10252]: connection authorized: user=orders database=orders host=10.0.2.10 port=60445
+Oct  1 03:15:06 vm-db-1 postgres[38860]: connection authorized: user=orders database=orders host=10.0.2.10 port=49390
+Oct  1 03:15:25 vm-db-1 postgres[15289]: connection authorized: user=orders database=orders host=10.0.2.10 port=37413
+Oct  1 03:15:29 vm-db-1 CRON[21865]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:15:45 vm-db-1 postgres[10366]: connection authorized: user=orders database=orders host=10.0.2.10 port=58423
+Oct  1 03:16:04 vm-db-1 postgres[15949]: connection authorized: user=orders database=orders host=10.0.2.10 port=45754
+Oct  1 03:16:21 vm-db-1 postgres[37613]: connection authorized: user=orders database=orders host=10.0.2.10 port=49627
+Oct  1 03:16:44 vm-db-1 postgres[11223]: connection authorized: user=orders database=orders host=10.0.2.10 port=55162
+Oct  1 03:17:04 vm-db-1 postgres[24139]: connection authorized: user=orders database=orders host=10.0.2.10 port=56229
+Oct  1 03:17:21 vm-db-1 postgres[9298]: connection authorized: user=orders database=orders host=10.0.2.10 port=56081
+Oct  1 03:17:45 vm-db-1 postgres[15195]: connection authorized: user=orders database=orders host=10.0.2.10 port=43792
+Oct  1 03:18:04 vm-db-1 postgres[37498]: connection authorized: user=orders database=orders host=10.0.2.10 port=49003
+Oct  1 03:18:25 vm-db-1 postgres[27873]: connection authorized: user=orders database=orders host=10.0.2.10 port=46974
+Oct  1 03:18:41 vm-db-1 postgres[24065]: connection authorized: user=orders database=orders host=10.0.2.10 port=42638
+Oct  1 03:19:01 vm-db-1 postgres[18524]: connection authorized: user=orders database=orders host=10.0.2.10 port=50006
+Oct  1 03:19:23 vm-db-1 postgres[5916]: connection authorized: user=orders database=orders host=10.0.2.10 port=51381
+Oct  1 03:19:41 vm-db-1 postgres[18894]: connection authorized: user=orders database=orders host=10.0.2.10 port=47727
+Oct  1 03:20:01 vm-db-1 postgres[32878]: connection authorized: user=orders database=orders host=10.0.2.10 port=58746
+Oct  1 03:20:25 vm-db-1 postgres[14260]: connection authorized: user=orders database=orders host=10.0.2.10 port=37928
+Oct  1 03:20:29 vm-db-1 CRON[36320]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:20:41 vm-db-1 postgres[36995]: connection authorized: user=orders database=orders host=10.0.2.10 port=43473
+Oct  1 03:21:06 vm-db-1 postgres[32758]: connection authorized: user=orders database=orders host=10.0.2.10 port=49471
+Oct  1 03:21:22 vm-db-1 postgres[2125]: connection authorized: user=orders database=orders host=10.0.2.10 port=52522
+Oct  1 03:21:43 vm-db-1 postgres[25804]: connection authorized: user=orders database=orders host=10.0.2.10 port=54181
+Oct  1 03:22:02 vm-db-1 postgres[16510]: connection authorized: user=orders database=orders host=10.0.2.10 port=60891
+Oct  1 03:22:21 vm-db-1 postgres[8367]: connection authorized: user=orders database=orders host=10.0.2.10 port=32880
+Oct  1 03:22:41 vm-db-1 postgres[35404]: connection authorized: user=orders database=orders host=10.0.2.10 port=33204
+Oct  1 03:23:04 vm-db-1 postgres[19989]: connection authorized: user=orders database=orders host=10.0.2.10 port=46780
+Oct  1 03:23:22 vm-db-1 postgres[36694]: connection authorized: user=orders database=orders host=10.0.2.10 port=39336
+Oct  1 03:23:43 vm-db-1 postgres[30220]: connection authorized: user=orders database=orders host=10.0.2.10 port=35075
+Oct  1 03:24:04 vm-db-1 postgres[23117]: connection authorized: user=orders database=orders host=10.0.2.10 port=57851
+Oct  1 03:24:23 vm-db-1 postgres[21002]: connection authorized: user=orders database=orders host=10.0.2.10 port=53259
+Oct  1 03:24:42 vm-db-1 postgres[17449]: connection authorized: user=orders database=orders host=10.0.2.10 port=53170
+Oct  1 03:25:01 vm-db-1 postgres[5667]: connection authorized: user=orders database=orders host=10.0.2.10 port=47197
+Oct  1 03:25:23 vm-db-1 postgres[18507]: connection authorized: user=orders database=orders host=10.0.2.10 port=52158
+Oct  1 03:25:29 vm-db-1 CRON[33343]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:25:33 vm-db-1 sshd[29708]: Accepted publickey for ops from 10.0.9.5 port 38555 ssh2
+Oct  1 03:25:33 vm-db-1 sshd[29708]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 03:25:45 vm-db-1 postgres[6411]: connection authorized: user=orders database=orders host=10.0.2.10 port=58045
+Oct  1 03:25:51 vm-db-1 sudo[8758]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 03:26:04 vm-db-1 postgres[38696]: connection authorized: user=orders database=orders host=10.0.2.10 port=45805
+Oct  1 03:26:17 vm-db-1 sshd[29708]: pam_unix(sshd:session): session closed for user ops
+Oct  1 03:26:26 vm-db-1 postgres[18191]: connection authorized: user=orders database=orders host=10.0.2.10 port=57358
+Oct  1 03:26:45 vm-db-1 postgres[36995]: connection authorized: user=orders database=orders host=10.0.2.10 port=35391
+Oct  1 03:27:03 vm-db-1 postgres[9828]: connection authorized: user=orders database=orders host=10.0.2.10 port=49523
+Oct  1 03:27:24 vm-db-1 postgres[15340]: connection authorized: user=orders database=orders host=10.0.2.10 port=47411
+Oct  1 03:27:44 vm-db-1 postgres[32983]: connection authorized: user=orders database=orders host=10.0.2.10 port=39542
+Oct  1 03:28:07 vm-db-1 postgres[33728]: connection authorized: user=orders database=orders host=10.0.2.10 port=57849
+Oct  1 03:28:24 vm-db-1 postgres[16135]: connection authorized: user=orders database=orders host=10.0.2.10 port=59926
+Oct  1 03:28:42 vm-db-1 postgres[23265]: connection authorized: user=orders database=orders host=10.0.2.10 port=35864
+Oct  1 03:29:04 vm-db-1 postgres[14163]: connection authorized: user=orders database=orders host=10.0.2.10 port=35120
+Oct  1 03:29:22 vm-db-1 postgres[20337]: connection authorized: user=orders database=orders host=10.0.2.10 port=47703
+Oct  1 03:29:46 vm-db-1 postgres[32576]: connection authorized: user=orders database=orders host=10.0.2.10 port=50659
+Oct  1 03:30:03 vm-db-1 postgres[16355]: connection authorized: user=orders database=orders host=10.0.2.10 port=41189
+Oct  1 03:30:23 vm-db-1 postgres[34313]: connection authorized: user=orders database=orders host=10.0.2.10 port=51016
+Oct  1 03:30:29 vm-db-1 CRON[17134]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:30:46 vm-db-1 postgres[28096]: connection authorized: user=orders database=orders host=10.0.2.10 port=37590
+Oct  1 03:31:06 vm-db-1 postgres[30140]: connection authorized: user=orders database=orders host=10.0.2.10 port=52424
+Oct  1 03:31:22 vm-db-1 postgres[19752]: connection authorized: user=orders database=orders host=10.0.2.10 port=43053
+Oct  1 03:31:41 vm-db-1 postgres[3086]: connection authorized: user=orders database=orders host=10.0.2.10 port=41856
+Oct  1 03:32:04 vm-db-1 postgres[14836]: connection authorized: user=orders database=orders host=10.0.2.10 port=59302
+Oct  1 03:32:27 vm-db-1 postgres[39024]: connection authorized: user=orders database=orders host=10.0.2.10 port=54393
+Oct  1 03:32:46 vm-db-1 postgres[35422]: connection authorized: user=orders database=orders host=10.0.2.10 port=56763
+Oct  1 03:33:01 vm-db-1 postgres[24865]: connection authorized: user=orders database=orders host=10.0.2.10 port=49640
+Oct  1 03:33:23 vm-db-1 postgres[19019]: connection authorized: user=orders database=orders host=10.0.2.10 port=55348
+Oct  1 03:33:44 vm-db-1 postgres[36506]: connection authorized: user=orders database=orders host=10.0.2.10 port=55037
+Oct  1 03:34:01 vm-db-1 postgres[25223]: connection authorized: user=orders database=orders host=10.0.2.10 port=43521
+Oct  1 03:34:21 vm-db-1 postgres[3562]: connection authorized: user=orders database=orders host=10.0.2.10 port=47576
+Oct  1 03:34:44 vm-db-1 postgres[10347]: connection authorized: user=orders database=orders host=10.0.2.10 port=55300
+Oct  1 03:35:01 vm-db-1 postgres[31273]: connection authorized: user=orders database=orders host=10.0.2.10 port=48940
+Oct  1 03:35:21 vm-db-1 postgres[17946]: connection authorized: user=orders database=orders host=10.0.2.10 port=33474
+Oct  1 03:35:29 vm-db-1 CRON[10258]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:35:43 vm-db-1 postgres[3143]: connection authorized: user=orders database=orders host=10.0.2.10 port=37272
+Oct  1 03:36:06 vm-db-1 postgres[14563]: connection authorized: user=orders database=orders host=10.0.2.10 port=50388
+Oct  1 03:36:21 vm-db-1 postgres[20734]: connection authorized: user=orders database=orders host=10.0.2.10 port=44836
+Oct  1 03:36:44 vm-db-1 postgres[18486]: connection authorized: user=orders database=orders host=10.0.2.10 port=38991
+Oct  1 03:37:01 vm-db-1 postgres[25921]: connection authorized: user=orders database=orders host=10.0.2.10 port=53913
+Oct  1 03:37:24 vm-db-1 postgres[7958]: connection authorized: user=orders database=orders host=10.0.2.10 port=36330
+Oct  1 03:37:45 vm-db-1 postgres[18788]: connection authorized: user=orders database=orders host=10.0.2.10 port=55345
+Oct  1 03:38:03 vm-db-1 postgres[8618]: connection authorized: user=orders database=orders host=10.0.2.10 port=60046
+Oct  1 03:38:23 vm-db-1 postgres[18091]: connection authorized: user=orders database=orders host=10.0.2.10 port=54163
+Oct  1 03:38:46 vm-db-1 postgres[10418]: connection authorized: user=orders database=orders host=10.0.2.10 port=53465
+Oct  1 03:39:04 vm-db-1 sshd[23794]: Accepted publickey for ops from 10.0.9.5 port 32771 ssh2
+Oct  1 03:39:04 vm-db-1 sshd[23794]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 03:39:04 vm-db-1 postgres[38634]: connection authorized: user=orders database=orders host=10.0.2.10 port=52207
+Oct  1 03:39:15 vm-db-1 sudo[6665]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 03:39:26 vm-db-1 postgres[35474]: connection authorized: user=orders database=orders host=10.0.2.10 port=60696
+Oct  1 03:39:43 vm-db-1 postgres[27174]: connection authorized: user=orders database=orders host=10.0.2.10 port=51496
+Oct  1 03:39:44 vm-db-1 sshd[23794]: pam_unix(sshd:session): session closed for user ops
+Oct  1 03:40:06 vm-db-1 postgres[33237]: connection authorized: user=orders database=orders host=10.0.2.10 port=37202
+Oct  1 03:40:26 vm-db-1 postgres[8018]: connection authorized: user=orders database=orders host=10.0.2.10 port=53374
+Oct  1 03:40:29 vm-db-1 CRON[7543]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:40:43 vm-db-1 postgres[27763]: connection authorized: user=orders database=orders host=10.0.2.10 port=59806
+Oct  1 03:41:01 vm-db-1 postgres[9176]: connection authorized: user=orders database=orders host=10.0.2.10 port=43865
+Oct  1 03:41:26 vm-db-1 postgres[17292]: connection authorized: user=orders database=orders host=10.0.2.10 port=48812
+Oct  1 03:41:41 vm-db-1 postgres[3445]: connection authorized: user=orders database=orders host=10.0.2.10 port=60627
+Oct  1 03:42:01 vm-db-1 postgres[30700]: connection authorized: user=orders database=orders host=10.0.2.10 port=45677
+Oct  1 03:42:24 vm-db-1 postgres[38161]: connection authorized: user=orders database=orders host=10.0.2.10 port=43404
+Oct  1 03:42:45 vm-db-1 postgres[12228]: connection authorized: user=orders database=orders host=10.0.2.10 port=60226
+Oct  1 03:43:06 vm-db-1 postgres[6064]: connection authorized: user=orders database=orders host=10.0.2.10 port=56690
+Oct  1 03:43:26 vm-db-1 postgres[19514]: connection authorized: user=orders database=orders host=10.0.2.10 port=55751
+Oct  1 03:43:41 vm-db-1 postgres[37490]: connection authorized: user=orders database=orders host=10.0.2.10 port=59527
+Oct  1 03:44:01 vm-db-1 postgres[24980]: connection authorized: user=orders database=orders host=10.0.2.10 port=60266
+Oct  1 03:44:26 vm-db-1 postgres[31756]: connection authorized: user=orders database=orders host=10.0.2.10 port=43627
+Oct  1 03:44:41 vm-db-1 postgres[6275]: connection authorized: user=orders database=orders host=10.0.2.10 port=33921
+Oct  1 03:45:04 vm-db-1 postgres[2457]: connection authorized: user=orders database=orders host=10.0.2.10 port=35066
+Oct  1 03:45:23 vm-db-1 postgres[34732]: connection authorized: user=orders database=orders host=10.0.2.10 port=42089
+Oct  1 03:45:29 vm-db-1 CRON[26652]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:45:44 vm-db-1 postgres[15953]: connection authorized: user=orders database=orders host=10.0.2.10 port=33219
+Oct  1 03:46:02 vm-db-1 postgres[20999]: connection authorized: user=orders database=orders host=10.0.2.10 port=35794
+Oct  1 03:46:25 vm-db-1 postgres[16273]: connection authorized: user=orders database=orders host=10.0.2.10 port=39629
+Oct  1 03:46:45 vm-db-1 postgres[12156]: connection authorized: user=orders database=orders host=10.0.2.10 port=43645
+Oct  1 03:47:01 vm-db-1 postgres[11046]: connection authorized: user=orders database=orders host=10.0.2.10 port=35231
+Oct  1 03:47:22 vm-db-1 postgres[37678]: connection authorized: user=orders database=orders host=10.0.2.10 port=41824
+Oct  1 03:47:45 vm-db-1 postgres[3407]: connection authorized: user=orders database=orders host=10.0.2.10 port=50801
+Oct  1 03:48:06 vm-db-1 postgres[3870]: connection authorized: user=orders database=orders host=10.0.2.10 port=53954
+Oct  1 03:48:26 vm-db-1 postgres[12037]: connection authorized: user=orders database=orders host=10.0.2.10 port=36282
+Oct  1 03:48:41 vm-db-1 postgres[29054]: connection authorized: user=orders database=orders host=10.0.2.10 port=60748
+Oct  1 03:49:02 vm-db-1 postgres[4792]: connection authorized: user=orders database=orders host=10.0.2.10 port=55086
+Oct  1 03:49:23 vm-db-1 postgres[7029]: connection authorized: user=orders database=orders host=10.0.2.10 port=56983
+Oct  1 03:49:41 vm-db-1 postgres[37120]: connection authorized: user=orders database=orders host=10.0.2.10 port=35665
+Oct  1 03:50:04 vm-db-1 postgres[29493]: connection authorized: user=orders database=orders host=10.0.2.10 port=45692
+Oct  1 03:50:21 vm-db-1 postgres[28163]: connection authorized: user=orders database=orders host=10.0.2.10 port=36144
+Oct  1 03:50:29 vm-db-1 CRON[19159]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:50:44 vm-db-1 postgres[22749]: connection authorized: user=orders database=orders host=10.0.2.10 port=51223
+Oct  1 03:51:05 vm-db-1 postgres[37365]: connection authorized: user=orders database=orders host=10.0.2.10 port=36300
+Oct  1 03:51:22 vm-db-1 postgres[6275]: connection authorized: user=orders database=orders host=10.0.2.10 port=59590
+Oct  1 03:51:42 vm-db-1 postgres[4817]: connection authorized: user=orders database=orders host=10.0.2.10 port=60185
+Oct  1 03:52:02 vm-db-1 postgres[22876]: connection authorized: user=orders database=orders host=10.0.2.10 port=59897
+Oct  1 03:52:23 vm-db-1 postgres[6169]: connection authorized: user=orders database=orders host=10.0.2.10 port=42630
+Oct  1 03:52:45 vm-db-1 postgres[16025]: connection authorized: user=orders database=orders host=10.0.2.10 port=48039
+Oct  1 03:53:05 vm-db-1 postgres[15463]: connection authorized: user=orders database=orders host=10.0.2.10 port=34613
+Oct  1 03:53:21 vm-db-1 postgres[36989]: connection authorized: user=orders database=orders host=10.0.2.10 port=51277
+Oct  1 03:53:44 vm-db-1 postgres[24003]: connection authorized: user=orders database=orders host=10.0.2.10 port=44870
+Oct  1 03:54:03 vm-db-1 postgres[39195]: connection authorized: user=orders database=orders host=10.0.2.10 port=54663
+Oct  1 03:54:23 vm-db-1 postgres[23910]: connection authorized: user=orders database=orders host=10.0.2.10 port=57308
+Oct  1 03:54:43 vm-db-1 postgres[39894]: connection authorized: user=orders database=orders host=10.0.2.10 port=49996
+Oct  1 03:55:01 vm-db-1 postgres[19666]: connection authorized: user=orders database=orders host=10.0.2.10 port=39905
+Oct  1 03:55:04 vm-db-1 sshd[29157]: Accepted publickey for ops from 10.0.9.5 port 55856 ssh2
+Oct  1 03:55:04 vm-db-1 sshd[29157]: pam_unix(sshd:session): session opened for user ops(uid=1001) by (uid=0)
+Oct  1 03:55:13 vm-db-1 sudo[23115]: ops : TTY=pts/0 ; PWD=/home/ops ; USER=root ; COMMAND=/usr/bin/systemctl status postgresql
+Oct  1 03:55:24 vm-db-1 postgres[14004]: connection authorized: user=orders database=orders host=10.0.2.10 port=54172
+Oct  1 03:55:26 vm-db-1 sshd[29157]: pam_unix(sshd:session): session closed for user ops
+Oct  1 03:55:29 vm-db-1 CRON[13042]: (postgres) CMD (/usr/local/bin/pg_stat_collect)
+Oct  1 03:55:44 vm-db-1 postgres[37807]: connection authorized: user=orders database=orders host=10.0.2.10 port=36717
+Oct  1 03:56:01 vm-db-1 postgres[38165]: connection authorized: user=orders database=orders host=10.0.2.10 port=51929
+Oct  1 03:56:22 vm-db-1 postgres[28279]: connection authorized: user=orders database=orders host=10.0.2.10 port=35727
+Oct  1 03:56:44 vm-db-1 postgres[32476]: connection authorized: user=orders database=orders host=10.0.2.10 port=52179
+Oct  1 03:57:01 vm-db-1 postgres[23472]: connection authorized: user=orders database=orders host=10.0.2.10 port=47719
+Oct  1 03:57:22 vm-db-1 postgres[3491]: connection authorized: user=orders database=orders host=10.0.2.10 port=48577
+Oct  1 03:57:45 vm-db-1 postgres[23274]: connection authorized: user=orders database=orders host=10.0.2.10 port=44062
+Oct  1 03:58:05 vm-db-1 postgres[32196]: connection authorized: user=orders database=orders host=10.0.2.10 port=56306
+Oct  1 03:58:23 vm-db-1 postgres[21880]: connection authorized: user=orders database=orders host=10.0.2.10 port=52493
+Oct  1 03:58:47 vm-db-1 postgres[35354]: connection authorized: user=orders database=orders host=10.0.2.10 port=39641
+Oct  1 03:59:01 vm-db-1 postgres[34711]: connection authorized: user=orders database=orders host=10.0.2.10 port=38176
+Oct  1 03:59:25 vm-db-1 postgres[4823]: connection authorized: user=orders database=orders host=10.0.2.10 port=56758
+Oct  1 03:59:44 vm-db-1 postgres[15356]: connection authorized: user=orders database=orders host=10.0.2.10 port=34286

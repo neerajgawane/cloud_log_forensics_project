@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Log Forensics — Investigation Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --success: #4ade80;
+      --warning: #fbbf24;
+      --danger: #f87171;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .badge-primary { background: rgba(56, 189, 248, 0.2); color: var(--accent); }
+    .badge-success { background: rgba(74, 222, 128, 0.2); color: var(--success); }
+    h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    p.subtitle { color: var(--text-muted); font-size: 1.05rem; }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .stat-label { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.25rem; }
+    .stat-val { font-size: 2rem; font-weight: 700; color: var(--accent); }
+    .stat-sub { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem; }
+
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin: 2.5rem 0 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      text-align: left;
+    }
+    th {
+      background: #0f172a;
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    tr:hover td { background: rgba(255, 255, 255, 0.02); }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.85em;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+      color: #38bdf8;
+    }
+
+    .tag {
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      display: inline-block;
+    }
+    .tag-rule { background: #3730a3; color: #c7d2fe; }
+    .tag-src { background: #334155; color: #cbd5e1; }
+
+    .figures-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 1.5rem;
+    }
+    .fig-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .fig-card img {
+      width: 100%;
+      height: auto;
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      display: block;
+    }
+    .fig-info {
+      padding: 1rem;
+    }
+    .fig-title {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+      color: var(--accent);
+    }
+    .fig-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge badge-primary">Cloud Log Forensics</span>
+      <span class="badge badge-success">Investigation CASE-2026-001</span>
+      <h1>Forensic Analysis & Experiment Dashboard</h1>
+      <p class="subtitle">ACM Computing Surveys 2016 implementation: 3-tier architecture with multi-source clock synchronization, tamper-evident hash chaining, and cross-source intrusion reconstruction.</p>
+    </header>
+
+    <!-- Metrics Summary -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Recall</div>
+        <div class="stat-val" style="color: var(--success);">100%</div>
+        <div class="stat-sub">189 of 189 attack events found</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Precision</div>
+        <div class="stat-val">95.5%</div>
+        <div class="stat-sub">Only 9 false positive records</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">F1 Score</div>
+        <div class="stat-val">0.977</div>
+        <div class="stat-sub">Multi-seed mean: 0.977 &plusmn; 0.001</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Attack Stage Coverage</div>
+        <div class="stat-val" style="color: var(--success);">7 / 7</div>
+        <div class="stat-sub">100% coverage (Recon &rarr; Tampering)</div>
+      </div>
+    </div>
+
+    <!-- Reconstructed Timeline -->
+    <div class="section-title">Reconstructed Incident Timeline</div>
+    <div class="card" style="padding: 0; overflow-x: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>Synchronized Time (UTC)</th>
+            <th>Rule</th>
+            <th>Source</th>
+            <th>Forensic Evidence Record</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026-10-01 01:39:14</td>
+            <td><span class="tag tag-rule">R1 404 Burst</span></td>
+            <td><span class="tag tag-src">web</span></td>
+            <td><code>185.220.101.47 GET /cgi-bin/test.cgi -&gt; 404</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 01:45:02</td>
+            <td><span class="tag tag-rule">R2 SQLi</span></td>
+            <td><span class="tag tag-src">web</span></td>
+            <td><code>185.220.101.47 GET /api/search?q=shoes' -&gt; 500</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 01:45:02</td>
+            <td><span class="tag tag-rule">R2 SQLi</span></td>
+            <td><span class="tag tag-src">application</span></td>
+            <td><code>db.error req=79b86ea3214ce4c2 {"err": "syntax error at or near \"'\""}</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 01:45:35</td>
+            <td><span class="tag tag-rule">R2 SQLi</span></td>
+            <td><span class="tag tag-src">web</span></td>
+            <td><code>185.220.101.47 GET /api/search?q=x' UNION SELECT null,null-- -&gt; 200</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 01:54:27</td>
+            <td><span class="tag tag-rule">R3 Svc Login</span></td>
+            <td><span class="tag tag-src">security</span></td>
+            <td><code>LOGIN_FAILURE user=svc-backup from 185.220.101.47</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 01:54:52</td>
+            <td><span class="tag tag-rule">R3 Svc Login</span></td>
+            <td><span class="tag tag-src">security</span></td>
+            <td><code>LOGIN_SUCCESS user=svc-backup from 185.220.101.47</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 01:57:49</td>
+            <td><span class="tag tag-rule">R4 High Risk IAM</span></td>
+            <td><span class="tag tag-src">audit</span></td>
+            <td><code>CreateAccessKey by svc-backup (AKIABACKUP0000000001)</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 01:58:21</td>
+            <td><span class="tag tag-rule">R4 High Risk IAM</span></td>
+            <td><span class="tag tag-src">audit</span></td>
+            <td><code>AttachUserPolicy by svc-backup (AKIABACKUP0000000001)</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 02:05:02</td>
+            <td><span class="tag tag-rule">R5 SSH Lateral</span></td>
+            <td><span class="tag tag-src">network</span></td>
+            <td><code>10.0.1.10:36740 -&gt; 10.0.4.10:22 (83,676 B)</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 02:05:03</td>
+            <td><span class="tag tag-rule">R5 SSH Lateral</span></td>
+            <td><span class="tag tag-src">system</span></td>
+            <td><code>SSH login dbadmin from 10.0.1.10</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 02:06:24</td>
+            <td><span class="tag tag-rule">R6 Bulk Egress</span></td>
+            <td><span class="tag tag-src">network</span></td>
+            <td><code>10.0.4.10:41499 -&gt; 45.137.21.9:443 (284 MB)</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 02:06:54</td>
+            <td><span class="tag tag-rule">R8 Object Read</span></td>
+            <td><span class="tag tag-src">audit</span></td>
+            <td><code>GetObject by svc-backup (AKIA1DDFF5F0BD9CA773)</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 02:16:34</td>
+            <td><span class="tag tag-rule">R7 Log Tampering</span></td>
+            <td><span class="tag tag-src">system</span></td>
+            <td><code>sudo dbadmin /usr/bin/truncate -s 0 /var/log/auth.log</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 02:16:40</td>
+            <td><span class="tag tag-rule">R7 Log Tampering</span></td>
+            <td><span class="tag tag-src">system</span></td>
+            <td><code>sudo dbadmin /usr/bin/rm -f /root/.bash_history /tmp/.c.dump</code></td>
+          </tr>
+          <tr>
+            <td>2026-10-01 02:18:24</td>
+            <td><span class="tag tag-rule">R4 High Risk IAM</span></td>
+            <td><span class="tag tag-src">audit</span></td>
+            <td><code>StopLogging by svc-backup (AKIA1DDFF5F0BD9CA773)</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Clock Synchronization & Chain of Custody -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 1.5rem;">
+      <div>
+        <div class="section-title">Clock Synchronization Applied</div>
+        <div class="card" style="padding: 0; overflow-x: auto;">
+          <table>
+            <thead>
+              <tr>
+                <th>Clock Domain</th>
+                <th>Offset (s)</th>
+                <th>Drift (s/h)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><code>web-1</code></td><td>+0.553 s</td><td>-0.0841 s/h</td></tr>
+              <tr><td><code>web-2</code></td><td>-1.831 s</td><td>-0.1753 s/h</td></tr>
+              <tr><td><code>app-1</code></td><td>+1.258 s</td><td>+0.1474 s/h</td></tr>
+              <tr><td><code>vm-db-1</code></td><td>+1.302 s</td><td>-0.1863 s/h</td></tr>
+              <tr><td><code>idp-1</code></td><td>+0.407 s</td><td>+0.0853 s/h</td></tr>
+              <tr><td><code>vpc</code></td><td>+0.176 s</td><td>+0.1566 s/h</td></tr>
+              <tr><td><code>cloudtrail</code></td><td>0.000 s</td><td>0.0000 s/h</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <div class="section-title">Chain of Custody Verification</div>
+        <div class="card" style="padding: 0; overflow-x: auto;">
+          <table>
+            <thead>
+              <tr>
+                <th>Evidence File</th>
+                <th>Records</th>
+                <th>Checkpoints</th>
+                <th>Verified</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><code>web-1.access.log</code></td><td>10,791</td><td>11</td><td><span style="color:var(--success); font-weight:600;">&check; Yes</span></td></tr>
+              <tr><td><code>web-2.access.log</code></td><td>10,723</td><td>11</td><td><span style="color:var(--success); font-weight:600;">&check; Yes</span></td></tr>
+              <tr><td><code>app-1.jsonl</code></td><td>17,164</td><td>18</td><td><span style="color:var(--success); font-weight:600;">&check; Yes</span></td></tr>
+              <tr><td><code>vpc-flow.log</code></td><td>22,996</td><td>23</td><td><span style="color:var(--success); font-weight:600;">&check; Yes</span></td></tr>
+              <tr><td><code>cloudtrail.jsonl</code></td><td>2,327</td><td>3</td><td><span style="color:var(--success); font-weight:600;">&check; Yes</span></td></tr>
+              <tr><td><code>vm-db-1.syslog</code></td><td>842</td><td>1</td><td><span style="color:var(--success); font-weight:600;">&check; Yes</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visual Figures Gallery -->
+    <div class="section-title">Evaluation Results & Research Figures</div>
+    <div class="figures-grid">
+      <div class="fig-card">
+        <img src="../figures/fig2_integrity.png" alt="Figure 2: Integrity Detection Heatmap">
+        <div class="fig-info">
+          <div class="fig-title">Figure 2: Tamper Detection Across Schemes</div>
+          <div class="fig-desc">Detection rates for record modification, insertion, deletion, reordering, and truncation across plain hash, HMAC, chain, and sealed WORM schemes.</div>
+        </div>
+      </div>
+
+      <div class="fig-card">
+        <img src="../figures/fig4_sync.png" alt="Figure 4: Clock Synchronization">
+        <div class="fig-info">
+          <div class="fig-title">Figure 4: Clock Synchronization vs Skew</div>
+          <div class="fig-desc">Pairwise event ordering accuracy, Kendall &tau;, and causality violations across varying clock offset magnitudes.</div>
+        </div>
+      </div>
+
+      <div class="fig-card">
+        <img src="../figures/fig6_visibility.png" alt="Figure 6: Visibility Ablation">
+        <div class="fig-info">
+          <div class="fig-title">Figure 6: Multi-Source Visibility Ablation</div>
+          <div class="fig-desc">Demonstrates that single log sources miss up to 88% of attack stages; multi-source correlation achieves 100% stage coverage.</div>
+        </div>
+      </div>
+
+      <div class="fig-card">
+        <img src="../figures/fig7_retention.png" alt="Figure 7: Retention Comparison">
+        <div class="fig-info">
+          <div class="fig-title">Figure 7: Retention Under Anti-Forensic Wiping</div>
+          <div class="fig-desc">Compares local circular buffers, local linear logs, and central sealed WORM storage when attacker truncates system logs.</div>
+        </div>
+      </div>
+
+      <div class="fig-card">
+        <img src="../figures/fig3_truncation.png" alt="Figure 3: Truncation Detection">
+        <div class="fig-info">
+          <div class="fig-title">Figure 3: Truncation Detection vs Interval</div>
+          <div class="fig-desc">Detection probability as a function of truncated records (k) across periodic checkpoint intervals.</div>
+        </div>
+      </div>
+
+      <div class="fig-card">
+        <img src="../figures/fig8_scale.png" alt="Figure 8: Scalability">
+        <div class="fig-info">
+          <div class="fig-title">Figure 8: Processing Throughput & Scalability</div>
+          <div class="fig-desc">Throughput (events/sec) and pipeline latency scaling as ingestion rates increase up to 170k events.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

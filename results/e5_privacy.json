@@ -1,0 +1,62 @@
+[
+ {
+  "seed": 0,
+  "privacy": false,
+  "f1": 0.9767441860465117,
+  "precision": 0.9545454545454546,
+  "recall": 1.0,
+  "exposed_identifiers": 2100,
+  "reidentified_for_case": 0,
+  "time_s": 0.16591174899076577
+ },
+ {
+  "seed": 0,
+  "privacy": true,
+  "f1": 0.9767441860465117,
+  "precision": 0.9545454545454546,
+  "recall": 1.0,
+  "exposed_identifiers": 0,
+  "reidentified_for_case": 7,
+  "time_s": 0.16759666599682532
+ },
+ {
+  "seed": 1,
+  "privacy": false,
+  "f1": 0.9766233766233766,
+  "precision": 0.9543147208121827,
+  "recall": 1.0,
+  "exposed_identifiers": 2106,
+  "reidentified_for_case": 0,
+  "time_s": 0.15991483400284778
+ },
+ {
+  "seed": 1,
+  "privacy": true,
+  "f1": 0.9766233766233766,
+  "precision": 0.9543147208121827,
+  "recall": 1.0,
+  "exposed_identifiers": 0,
+  "reidentified_for_case": 7,
+  "time_s": 0.16201087398803793
+ },
+ {
+  "seed": 2,
+  "privacy": false,
+  "f1": 0.9781021897810218,
+  "precision": 0.9571428571428572,
+  "recall": 1.0,
+  "exposed_identifiers": 2142,
+  "reidentified_for_case": 0,
+  "time_s": 0.16112079199228901
+ },
+ {
+  "seed": 2,
+  "privacy": true,
+  "f1": 0.9781021897810218,
+  "precision": 0.9571428571428572,
+  "recall": 1.0,
+  "exposed_identifiers": 0,
+  "reidentified_for_case": 7,
+  "time_s": 0.1701303749869112
+ }
+]

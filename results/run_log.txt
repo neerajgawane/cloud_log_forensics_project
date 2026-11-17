@@ -1,0 +1,47 @@
+[saved] e0_baseline
+e0 done in 9.5 s
+[saved] e1_integrity
+e1 done in 32.9 s
+offset 0.1
+offset 0.5
+offset 2
+offset 10
+offset 60
+offset 300
+offset 1800
+offset 7200
+drift 0
+drift 50
+drift 200
+drift 1000
+[saved] e2_sync
+e2 done in 85.6 s
+vis seed 0
+vis seed 1
+vis seed 2
+vis seed 3
+vis seed 4
+vis seed 5
+vis seed 6
+vis seed 7
+vis seed 8
+vis seed 9
+[saved] e3_visibility
+e3 done in 64.9 s
+ret seed 0
+ret seed 1
+ret seed 2
+ret seed 3
+ret seed 4
+ret seed 5
+[saved] e4_retention
+e4 done in 119.9 s
+[saved] e5_privacy
+e5 done in 13.7 s
+scale 0.5 24186 0.34675096499972824
+scale 1.5 65973 0.8885367170000791
+scale 4 170142 2.4141991309995774
+scale 10 420303 5.858945124999764
+scale 20 837138 10.766475938999974
+[saved] e6_scale
+e6 done in 56.0 s
